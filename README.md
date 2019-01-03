@@ -1,3 +1,3 @@
 # computer-modelling-scilab
 
-Computer modelling in chemical technology  - Scilab worked examples
+Computer Modelling in Chemical Technology  - Scilab worked examples
