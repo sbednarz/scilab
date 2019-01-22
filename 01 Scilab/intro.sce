@@ -1,3 +1,5 @@
+// intro
+
 // two slashes == comment (not interpreted by Scilab)
 // http://www.scilab.org/download/
 // version >= 6.0
