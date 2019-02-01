@@ -65,7 +65,7 @@ v3
 // a matrix
 m1=[1,2,3; 4,5,6]
 
-
+// first element has index 1 (NOT 0)
 // accessing vectors & matrices elements by indexes
 v3(2)
 m1(1,1)
