@@ -2,7 +2,9 @@
 ## Computer Modelling in Chemical Technology  - Scilab worked examples
 
 ### Module 1: Scilab Introduction
-[1.1 intro](01/intro.sce)  [1.2 functions](01/functions.sce)  [1.3 loops](01/loops.sce)
+[Example 1.1 Intro](01/intro.sce)
+[Example 1.2 Functions](01/functions.sce)
+[Example 1.3 Loops](01/loops.sce)
 
 ### [02 Mass Balance](02/README.md)
 ### [03 Chemical Equilibrium](03/README.md)
