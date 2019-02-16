@@ -5,17 +5,13 @@
 
 [Module 2. Mass Balance](02/README.md)
 
-### Module 3. Chemical Equilibrium
+[Module 3. Chemical Equilibrium](03/README.md)
 
+[Module 4. Chemical Kinetics](04/README.md)
 
-### Module 4. Chemical Kinetics
+[Module 5. Thermal effects](05/README.md)
 
+[Module 6. Ideal Reactors](06/README.md)
 
-### Module 5. Thermal effects
-
-
-### Module 6. Ideal Reactors
-
-
-### Module 7. Misc
+[Module 7. Misc](03/README.md)
 
