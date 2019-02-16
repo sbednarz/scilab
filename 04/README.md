@@ -22,7 +22,7 @@ function dy = model(t, y)
 	B = y(2)
 	dAdt = -k*A
 	dBdt = k*A
-    dy=[dAdt, dBdt] // order
+	dy=[dAdt, dBdt] // order
 endfunction
 
 A0 = 2
