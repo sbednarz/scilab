@@ -1,4 +1,4 @@
-// mass_balance_01.sce
+// ex2.1
 
 function eq = model(x)
 
