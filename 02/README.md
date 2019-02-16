@@ -2,10 +2,10 @@
 
 ### Module 2. Mass balance
 
-[Example 2.1](#example-2.1)
-[Example 2.2](#example-2.2)
-[Example 2.3](#example-2.3)
-[Example 2.4](#example-2.4)
+[Example 2.1](#example-2_1)
+[Example 2.2](#example-2_2)
+[Example 2.3](#example-2-3)
+[Example 2.4](#example-2-4
 
 
 #### Example 2.1
