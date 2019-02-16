@@ -2,7 +2,7 @@
 
 ### Computer Modelling in Chemical Technology: Scilab worked examples
 
-### Module 2. Mass balance
+#### Module 2. Mass balance
 
 [Example 2.1](#example-21)
 [Example 2.2](#example-22)
@@ -12,7 +12,7 @@
 ---
 
 
-#### Example 2.1
+##### Example 2.1
 
 ```scilab
 // ex2.1
