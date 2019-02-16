@@ -7,8 +7,6 @@
 [Example 2.3](#example-23)
 [Example 2.4](#example-24)
 
----
-
 #### Example 2.1
 
 A 20% w/w solution of MeOH (F1) is mixed with pure water (F2) to get 5% w/w MeOH (F3). Calculate
