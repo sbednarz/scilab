@@ -10,7 +10,7 @@
 [Example 1.3 Loops](01/loops.sce)
 
 
-### Module 2. Mass Balance
+[### Module 2. Mass Balance](02/README.md)
 
 
 ### Module 3. Chemical Equilibrium
