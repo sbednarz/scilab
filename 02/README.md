@@ -5,7 +5,9 @@ flow rate of water (F2) and the diluted solution (F3), knowing that F1 = 1234 kg
 
 ![scheme](0201_mass_balance.svg "")
 
+
 ``` Scilab
+
 // mass_balance_01.sce
 
 function eq = model(x)
