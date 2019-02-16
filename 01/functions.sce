@@ -45,6 +45,9 @@ function y = fun3 (x)
 endfunction
 
 v = [10,2]
+q = fun3(v)
+
+// q is a vector
 
 disp(fun3(v))
 // 12

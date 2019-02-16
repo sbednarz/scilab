@@ -27,6 +27,8 @@
 // Scilab console
 // press TAB key to see hints
 // use up/down arrows to walk through your command history
+// in any time: help topic/function ;)
+
 2+2
 4+4
 log(10)
@@ -166,6 +168,9 @@ function y = fun3 (x)
 endfunction
 
 v = [10,2]
+q = fun3(v)
+
+// q is a vector
 
 disp(fun3(v))
 // 12
@@ -280,7 +285,7 @@ for x = 10:-1:1
 end
 
 
-// iteration through values list (vector)
+// iteration through values of a list (a vector)
 
 mylist = [1, 2, 55, 67, -4, 33.333]
 for x = mylist
@@ -291,8 +296,8 @@ end
 
 // nested loops
 
-for x = 1:1:3              // 1, 2, 3 (three times)
-    for y = 2:5             // 2, 3, 4, 5 (four times
+for x = 1:1:3                         // 1, 2, 3 (three times)
+    for y = 2:5                       // 2, 3, 4, 5 (four times)
         printf( "x=%f y=%f \n", x, y) // 3x4 = 12 times
     end
 end

@@ -15,7 +15,7 @@ for x = 10:-1:1
 end
 
 
-// iteration through values list (vector)
+// iteration through values of a list (a vector)
 
 mylist = [1, 2, 55, 67, -4, 33.333]
 for x = mylist
@@ -26,8 +26,8 @@ end
 
 // nested loops
 
-for x = 1:1:3              // 1, 2, 3 (three times)
-    for y = 2:5             // 2, 3, 4, 5 (four times
+for x = 1:1:3                         // 1, 2, 3 (three times)
+    for y = 2:5                       // 2, 3, 4, 5 (four times)
         printf( "x=%f y=%f \n", x, y) // 3x4 = 12 times
     end
 end

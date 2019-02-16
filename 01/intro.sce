@@ -8,6 +8,8 @@
 // Scilab console
 // press TAB key to see hints
 // use up/down arrows to walk through your command history
+// in any time: help topic/function ;)
+
 2+2
 4+4
 log(10)
