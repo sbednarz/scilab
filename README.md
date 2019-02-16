@@ -17,6 +17,11 @@
 [Module 7. Misc](03/README.md)
 
 
+Usefull links:
+[Scilab tutorials](http://www.openeering.com/scilab_tutorials)
+
+
+
 ---
 
 
