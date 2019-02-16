@@ -68,6 +68,7 @@ cp = a/b*100
 v1=[1, 2, 3, 4]
 
 // a column vector (semicolon)
+// think: semicolon ends a row
 v2=[1; 2; 3; 4]
 
 // transposition
