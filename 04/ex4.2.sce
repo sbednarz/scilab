@@ -1,19 +1,4 @@
 
----
-
-### Computer Modelling in Chemical Technology: Scilab worked examples
-
-#### Module 4. Chemical Kinetics
-
-[Example 4.2](#example-42) | 
-
----
-
-
-##### Example 4.2
-
-```scilab
-
 // A => B, k
 
 function dy = model(t, y)
@@ -48,4 +33,3 @@ legend(['A'; 'B'], [1;2])
 xlabel('Time')
 ylabel('Concentration')
 
-```
