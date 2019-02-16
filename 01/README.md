@@ -119,14 +119,84 @@ y2=4*x**2+4*x+10
 ##### Example 1.2 Functions
 
 ```scilab
-// functions
+
+// fun1 => a function name
+// y => return value
+
+function y = fun1 (x)
+	y = x + 2
+endfunction
+
+
+// using of functions
+
+a = 10
+b = fun1(a)
+disp(b)
+
+disp(fun1(10))
+
+
+function y = fun2 (x)
+	z = x**2
+	y = z + 1
+endfunction
+
+disp(fun2(10))
+// 101
+
+
+// function of two arguments
+function z = calculate(x,y)
+	z = x+y
+endfunction
+
+disp(calculate(10,20))
+//30
+
+
+
+
+// vectors & matrices as functions arguments/results
+function y = fun3 (x)
+	a = x(1)
+	b = x(2)
+	y(1) = a+b
+	y(2) = a-b
+endfunction
+
+v = [10,2]
+
+disp(fun3(v))
+// 12
+// 8
+
+
 
 ```
 
 ##### Example 1.3 Reporting
 
 ```scilab
-// reporting
+//1
+disp(2+2)
+
+//2
+var1 = 1992
+disp(var)
+
+//3
+disp('a string')
+
+
+var2 = 1992.45
+
+printf('Value of var1 is %0.2f \n', var2)
+printf('Value of var1 is %0.2e \n', var2)
+printf('Value of var1 is %0.5f \n', var2)
+printf('Value of var1 is %0.5e \n', var2)
+printf('Value of var1 is %0.1f \n', var2)
+printf('Value of var1 is %0.1e \n', var2)
 
 ```
 
@@ -141,5 +211,38 @@ y2=4*x**2+4*x+10
 
 ```scilab
 // loops
+
+// from 1 to 10
+for x = 1:10
+    disp(x)
+end
+
+// start : step : end
+for x = 1:2:10
+    disp(x)
+end
+
+for x = 10:-1:1
+    disp(x)
+end
+
+
+// iteration through values list (vector)
+
+mylist = [1, 2, 55, 67, -4, 33.333]
+for x = mylist
+    disp(x)
+end
+
+
+
+// nested loops
+
+for x = 1:1:3              // 1, 2, 3 (three times)
+    for y = 2:5             // 2, 3, 4, 5 (four times
+        printf( "x=%f y=%f \n", x, y) // 3x4 = 12 times
+    end
+end
+
 
 ```
