@@ -2,6 +2,9 @@
 
 ### Module 2. Mass balance
 
+[click on this link](#my-multi-word-header)
+
+
 #### Example 2.1 Mass balance
 
 A 20% w/w solution of MeOH (F1) is mixed with pure water (F2) to get 5% w/w MeOH (F3). Calculate
@@ -64,3 +67,6 @@ x3H2O=0.95
 */
 
 ```
+
+### My Multi Word Header
+
