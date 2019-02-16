@@ -1,8 +1,9 @@
-cat mass_balance_01.md > mass_balance_01_ex.md
-echo '```scilab' >> mass_balance_01_ex.md
-cat mass_balance_01.sce >> mass_balance_01_ex.md
-echo '```' >> mass_balance_01_ex.md
+cat 0201_mass_balance.md > tmp
+echo '```scilab' >> tmp
+cat 0201_mass_balance.sce >> tmp
+echo '```' >> tmp
+cat tmp > README.md
 
 
 
-cat mass_balance_01_ex.md > README.md
+rm tmp
