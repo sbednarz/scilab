@@ -53,8 +53,8 @@ printf("Recovery: %.2f %%\n",r)
 
 Results:
 
-F2=0.1000
-F3=0.1133
+F2=0.1000 kg/h
+F3=0.1133 kg/h
 x3o=0.1176
 x4o=0.0034
 Total oil in feed: 0.0200 kg/h
