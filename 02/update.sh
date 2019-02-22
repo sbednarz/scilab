@@ -14,6 +14,11 @@ echo -e '\n```scilab' >> tmp
 cat ex2.1.sce >> tmp
 echo -e '```\n' >> tmp
 
+echo -e "\n##### Example 2.2\n" >> tmp
+cat ex2.2.md >> tmp
+echo -e '\n```scilab' >> tmp
+cat ex2.2.sce >> tmp
+echo -e '```\n' >> tmp
 
 cat tmp > README.md
 rm tmp

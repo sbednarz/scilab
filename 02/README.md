@@ -75,3 +75,54 @@ x3H2O=0.95
 
 ```
 
+
+##### Example 2.2
+
+Consider a continous steady-state process of acetone-water distilation. Calculate flows of a distilate (F2) and a
+bottom fraction (F3). Molar fractions of acetone for each stream are shown on the scheme.
+
+![scheme](ex2.2.svg "")
+
+
+```scilab
+// ex2.2
+
+function eq = model(x)
+
+    F2 = x(1)
+    F3 = x(2) 
+
+    eq(1) = F1 - F2 - F3                       // total material balance of the system
+    eq(2) = x1a * F1 - x2a * F2 - x3a * F3     // acetone balance
+
+endfunction
+
+
+F1 = 20            // kmol/h
+x1a = 2/100
+x2a = 80/100
+x3a = 0.08/100
+
+
+guess = [5;5]
+
+x = fsolve(guess, model)
+
+F2 = x(1)
+F3 = x(2) 
+
+printf("F2=%.2f\n", F2)
+printf("F2=%.2f\n", F3)
+
+
+/*
+
+Results:
+
+F2=0.48
+F2=19.52
+
+*/
+
+```
+
