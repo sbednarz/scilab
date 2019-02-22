@@ -25,7 +25,7 @@ F2 = x(1)
 F3 = x(2) 
 
 printf("F2=%.2f\n", F2)
-printf("F2=%.2f\n", F3)
+printf("F3=%.2f\n", F3)
 
 
 /*
