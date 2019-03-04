@@ -347,6 +347,9 @@ disp(solution)
 
 
 
+// todo: 
+// 2*x**3+5*x**2+x-2
+
 
 
 
@@ -395,6 +398,56 @@ disp(solution)
 
 */
 
+// todo
+// {2*x+y=2, x/y=0.1}
+// 0.1666 1.6666
+
+
+
+
+// more advanced
+// lets solve a system of 2 equations and 2 unknowns and one parameter K:
+// {p+q=K, p**2-q=4}
+
+
+// todo: plot eq p=<-10,10>
+
+
+// a list - another Scilab object type
+// ex.: a1 = list(12, 4)
+// ex.: a2 = list(12, problem, 'bla bla')
+
+
+function eq = problem(x, K)
+    p = x(1)
+    q = x(2)
+    eq(1) = p+q-K
+    eq(2) = p**2-q-4
+endfunction
+
+
+// guess values try different pairs
+guess = [1; 1] // semicolon here (NOT comma)
+
+// main calculations, we pass K value as the second list element:
+solution = fsolve(guess, list(problem, 10))
+
+// a minimalistic report
+disp(solution)
+
+
+
+disp('The last example')
+
+// power of a paremeter:
+
+
+guess = [1; 1] // semicolon here (NOT comma)
+
+for K = [1,10,40,50]
+    solution = fsolve(guess, list(problem, K))
+    disp(solution)
+end
 
 
 ```
