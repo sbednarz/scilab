@@ -5,7 +5,8 @@ echo "[Example 1.1 Intro](#example-11-intro) | " >> tmp
 echo "[Example 1.2 Functions](#example-12-functions) | " >> tmp
 echo "[Example 1.3 Reporting](#example-13-reporting) | " >> tmp
 echo "[Example 1.4 Ploting](#example-14-ploting) | " >> tmp
-echo "[Example 1.5 Loops](#example-15-loops)" >> tmp
+echo "[Example 1.5 Loops](#example-15-loops) | " >> tmp
+echo "[Example 1.6 fsolve](#example-16-fsolve)" >> tmp
 echo -e "\n---\n" >> tmp
 
 
@@ -37,6 +38,13 @@ echo -e "\n##### Example 1.5 Loops\n" >> tmp
 echo '```scilab' >> tmp
 cat loops.sce >> tmp
 echo '```' >> tmp
+
+
+echo -e "\n##### Example 1.6 fsolve\n" >> tmp
+echo '```scilab' >> tmp
+cat fsolve.sce >> tmp
+echo '```' >> tmp
+
 
 
 cat tmp > README.md
