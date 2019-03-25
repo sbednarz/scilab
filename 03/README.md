@@ -483,7 +483,7 @@ function eq = model(x)
     cl = x(3) 
 
     eq(1) = h*oh - Kw      // ion product for water Kw = 1e-14
-    eq(2) = h - cl - oh    // Electroneutrality condition => solution are electrically neutral  
+    eq(2) = h - cl - oh    // Electroneutrality condition => solutions are electrically neutral  
     eq(3) = cHCl - cl     //  CL balance
 
 endfunction
@@ -549,7 +549,7 @@ function eq = model(x)
     ch3coo = x(4)
     
     eq(1) = h*oh - Kw                       // ion product for water Kw = 1e-14
-    eq(2) = h - ch3coo - oh                 // Electroneutrality condition => solution are electrically neutral  
+    eq(2) = h - ch3coo - oh                 // Electroneutrality condition => solutions are electrically neutral  
     eq(3) = cCH3COOH - ch3cooh - ch3coo     //  CH3COOH balance
     eq(4) = ch3coo*h - Ka*ch3cooh           //  Ka def (dissociation)
 

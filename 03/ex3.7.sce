@@ -17,7 +17,7 @@ function eq = model(x)
     cl = x(3) 
 
     eq(1) = h*oh - Kw      // ion product for water Kw = 1e-14
-    eq(2) = h - cl - oh    // Electroneutrality condition => solution are electrically neutral  
+    eq(2) = h - cl - oh    // Electroneutrality condition => solutions are electrically neutral  
     eq(3) = cHCl - cl     //  CL balance
 
 endfunction
