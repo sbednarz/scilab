@@ -17,9 +17,9 @@ cat ex3.1.sce >> tmp
 echo -e '```\n' >> tmp
 
 echo -e "\n##### Example 3.2\n" >> tmp
-cat ex3.3.md >> tmp
+cat ex3.2.md >> tmp
 echo -e '\n```scilab' >> tmp
-cat ex3.3.sce >> tmp
+cat ex3.2.sce >> tmp
 echo -e '```\n' >> tmp
 
 echo -e "\n##### Example 3.3\n" >> tmp
