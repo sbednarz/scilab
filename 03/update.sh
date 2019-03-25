@@ -7,6 +7,8 @@ echo "[Example 3.3](#example-33)" >> tmp
 echo "[Example 3.4](#example-34)" >> tmp
 echo "[Example 3.5](#example-35)" >> tmp
 echo "[Example 3.6](#example-36)" >> tmp
+echo "[Example 3.7](#example-37)" >> tmp
+echo "[Example 3.8](#example-38)" >> tmp
 echo -e "\n---\n" >> tmp
 
 
@@ -44,6 +46,18 @@ echo -e "\n##### Example 3.6\n" >> tmp
 cat ex3.6.md >> tmp
 echo -e '\n```scilab' >> tmp
 cat ex3.6.sce >> tmp
+echo -e '```\n' >> tmp
+
+echo -e "\n##### Example 3.7\n" >> tmp
+cat ex3.7.md >> tmp
+echo -e '\n```scilab' >> tmp
+cat ex3.7.sce >> tmp
+echo -e '```\n' >> tmp
+
+echo -e "\n##### Example 3.8\n" >> tmp
+cat ex3.8.md >> tmp
+echo -e '\n```scilab' >> tmp
+cat ex3.8.sce >> tmp
 echo -e '```\n' >> tmp
 
 cat tmp > README.md

@@ -11,6 +11,8 @@
 [Example 3.4](#example-34)
 [Example 3.5](#example-35)
 [Example 3.6](#example-36)
+[Example 3.7](#example-37)
+[Example 3.8](#example-38)
 
 ---
 
@@ -306,23 +308,30 @@ D=0.66
 
 
 ```scilab
-// ex3.7
-// Strong electrolyte equilibrium
+// ex3.5
 
 /*
 
-Calculate equilibrium concentrations of
-H+, OH- and Cl- in 0.1 mo/L and 1e-7 mol/L HCL solution.
+A + B <=> C
+A + C <=> D
 
+A0 = 1
+B0 = 1
+K1 = 10
+K2 = 10
+
+at eq
+A, B, C, D
 
 */
 
 
 function eq = model(x)
 
-    h = x(1)
-    oh = x(2)
-    cl = x(3) 
+    A = x(1)
+    B = x(2)
+    C = x(3) 
+    D = x(4)
 
     eq(1) = A + C + D - A0 // A balance 
     eq(2) = B + C - B0     // B balance 
@@ -356,6 +365,11 @@ printf("D=%.2f mol/L\n", D)
 /*
 
 Results:
+
+A=0.09 mol/L
+B=0.52 mol/L
+C=0.48 mol/L
+D=0.43 mol/L
 
 
 */
@@ -440,6 +454,141 @@ A=0.236
 B=0.321
 C=0.864
 D=0.879
+
+*/
+
+```
+
+
+##### Example 3.7
+
+
+```scilab
+// ex3.7
+// Strong electrolyte equilibrium
+
+/*
+
+Calculate equilibrium concentrations of
+H+, OH- and Cl- in 0.1 mo/L and 1e-7 mol/L HCL solution.
+
+
+*/
+
+
+function eq = model(x)
+
+    h = x(1)
+    oh = x(2)
+    cl = x(3) 
+
+    eq(1) = h*oh - Kw      // ion product for water Kw = 1e-14
+    eq(2) = h - cl - oh    // Electroneutrality condition => solution are electrically neutral  
+    eq(3) = cHCl - cl     //  CL balance
+
+endfunction
+
+
+cHCl = 0.1 // analytical conc of HCl in mol/L
+Kw = 1e-14
+
+guess = [1e-5; 1e-5; 1-5]
+
+x = fsolve(guess, model)
+
+h = x(1)
+oh = x(2)
+cl = x(3) 
+
+pH = -log10(h)
+
+printf("For cHCl = %.2e mol/L\n", cHCl)
+printf("[H+]=%.2e mol/L\n", h)
+printf("[OH-]=%.2e mol/L\n", oh)
+printf("[Cl-]=%.2e mol/L\n", cl)
+printf("pH=%.2f\n", pH)
+
+
+
+/*
+
+Results:
+
+For cHCl = 1.00e-01 mol/L
+[H+]=1.00e-01 mol/L
+[OH-]=1.00e-13 mol/L
+[Cl-]=1.00e-01 mol/L
+pH=1.00
+
+*/
+
+```
+
+
+##### Example 3.8
+
+
+```scilab
+// ex3.8
+//  Weak electrolyte equilibrium
+
+/*
+
+Calculate equilibrium concentrations of
+H+, OH-, CH3COOH, and CH3COO- in 0.5 mo/L CH3COOH solution.
+
+
+*/
+
+
+function eq = model(x)
+
+    h = x(1)
+    oh = x(2)
+    ch3cooh = x(3)
+    ch3coo = x(4)
+    
+    eq(1) = h*oh - Kw                       // ion product for water Kw = 1e-14
+    eq(2) = h - ch3coo - oh                 // Electroneutrality condition => solution are electrically neutral  
+    eq(3) = cCH3COOH - ch3cooh - ch3coo     //  CH3COOH balance
+    eq(4) = ch3coo*h - Ka*ch3cooh           //  Ka def (dissociation)
+
+endfunction
+
+
+cCH3COOH = 0.5 // analytical conc of HCl in mol/L
+Kw = 1e-14
+Ka = 1.8e-5
+
+guess = [1e-5; 1e-5; 1e-5; 1e-5]
+
+x = fsolve(guess, model)
+
+h = x(1)
+oh = x(2)
+ch3cooh = x(3)
+ch3coo = x(4)
+
+pH = -log10(h)
+
+printf("For cCH3COOH = %.2e mol/L\n", cCH3COOH)
+printf("[H+]=%.2e mol/L\n", h)
+printf("[OH-]=%.2e mol/L\n", oh)
+printf("[CH3COOH]=%.2e mol/L\n", ch3cooh)
+printf("[CH3COO-]=%.2e mol/L\n", ch3coo)
+printf("pH=%.2f\n", pH)
+
+
+/*
+
+Results:
+
+For cCH3COOH = 5.00e-01 mol/L
+[H+]=2.99e-03 mol/L
+[OH-]=3.34e-12 mol/L
+[CH3COOH]=4.97e-01 mol/L
+[CH3COO-]=2.99e-03 mol/L
+pH=2.52
 
 */
 

@@ -1,20 +1,27 @@
-// ex3.7
-// Strong electrolyte equilibrium
+// ex3.5
 
 /*
 
-Calculate equilibrium concentrations of
-H+, OH- and Cl- in 0.1 mo/L and 1e-7 mol/L HCL solution.
+A + B <=> C
+A + C <=> D
 
+A0 = 1
+B0 = 1
+K1 = 10
+K2 = 10
+
+at eq
+A, B, C, D
 
 */
 
 
 function eq = model(x)
 
-    h = x(1)
-    oh = x(2)
-    cl = x(3) 
+    A = x(1)
+    B = x(2)
+    C = x(3) 
+    D = x(4)
 
     eq(1) = A + C + D - A0 // A balance 
     eq(2) = B + C - B0     // B balance 
@@ -48,6 +55,11 @@ printf("D=%.2f mol/L\n", D)
 /*
 
 Results:
+
+A=0.09 mol/L
+B=0.52 mol/L
+C=0.48 mol/L
+D=0.43 mol/L
 
 
 */
