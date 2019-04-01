@@ -9,7 +9,8 @@
 [Example 3.2](#example-32)
 [Example 3.3](#example-33)
 [Example 3.4](#example-34)
-[Example 3.5](#example-35)
+[Example 3.5a](#example-35a)
+[Example 3.5b](#example-35b)
 [Example 3.6](#example-36)
 [Example 3.7](#example-37)
 [Example 3.8](#example-38)
@@ -323,7 +324,7 @@ D=0.66
 ```
 
 
-##### Example 3.5
+##### Example 3.5a
 
 
 ```scilab
@@ -407,7 +408,100 @@ printf("C=%.4f mol/L\n", C)
 printf("D=%.4f mol/L\n", D)
 
 
+// #3
 
+A0 = 1 // mol/L
+B0 = 1 // mol/L
+K1 = 10
+K2 = 10
+
+guess = [1; 1; 1; 1]
+
+x = fsolve(guess, model)
+
+A = x(1)
+B = x(2)
+C = x(3) 
+D = x(4)
+
+printf("Case*: A0=%.1f mol/L B0=%.1f mol/L K1=%.1f K2=%.1f\n", A0,B0,K1,K2)
+printf("A=%.4f mol/L\n", A)
+printf("B=%.4f mol/L\n", B)
+printf("C=%.4f mol/L\n", C)
+printf("D=%.4f mol/L\n", D)
+
+```
+
+
+##### Example 3.5b
+
+
+```scilab
+// ex3.55
+
+/*
+
+A + B <=> C
+A + C <=> D
+
+A0
+B0
+K1
+K2
+
+calc
+A, B, C, D
+at eq
+
+*/
+
+
+function eq = model(x)
+
+    Xi1 = x(1)
+    Xi2 = x(2)
+    
+    A = A0 - Xi1 - Xi2
+    B = B0 - Xi1
+    C = C0 + Xi1 - Xi2 
+    D = D0 + Xi2
+    
+    eq(1) = C - K1*A*B
+    eq(2) = D - K2*A*C
+       
+endfunction
+
+
+// #1
+
+A0 = 1 // mol/L
+B0 = 1 // mol/L
+C0 = 0
+D0 = 0
+K1 = 10
+K2 = 10
+
+guess = [0; 0]
+
+x = fsolve(guess, model)
+
+Xi1 = x(1)
+Xi2 = x(2)
+
+A = A0 - Xi1 - Xi2
+B = B0 - Xi1
+C = C0 + Xi1 - Xi2 
+D =  Xi2
+
+
+printf("Case*: A0=%.1f mol/L B0=%.1f mol/L K1=%.1f K2=%.1f\n", A0,B0,K1,K2)
+printf("A=%.4f mol/L\n", A)
+printf("B=%.4f mol/L\n", B)
+printf("C=%.4f mol/L\n", C)
+printf("D=%.4f mol/L\n", D)
+
+
+//https://www.youtube.com/watch?v=QkgDHssj-3w
 ```
 
 
@@ -417,6 +511,7 @@ printf("D=%.4f mol/L\n", D)
 ```scilab
 // ex3.6
 // https://en.wikipedia.org/wiki/Extent_of_reaction
+// https://www.youtube.com/watch?v=fuk1zTdJifM
 
 /*
 

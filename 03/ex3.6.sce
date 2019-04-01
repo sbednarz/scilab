@@ -1,5 +1,6 @@
 // ex3.6
 // https://en.wikipedia.org/wiki/Extent_of_reaction
+// https://www.youtube.com/watch?v=fuk1zTdJifM
 
 /*
 

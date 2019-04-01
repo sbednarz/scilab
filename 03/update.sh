@@ -5,7 +5,8 @@ echo "[Example 3.1](#example-31)" >> tmp
 echo "[Example 3.2](#example-32)" >> tmp
 echo "[Example 3.3](#example-33)" >> tmp
 echo "[Example 3.4](#example-34)" >> tmp
-echo "[Example 3.5](#example-35)" >> tmp
+echo "[Example 3.5a](#example-35a)" >> tmp
+echo "[Example 3.5b](#example-35b)" >> tmp
 echo "[Example 3.6](#example-36)" >> tmp
 echo "[Example 3.7](#example-37)" >> tmp
 echo "[Example 3.8](#example-38)" >> tmp
@@ -36,10 +37,16 @@ echo -e '\n```scilab' >> tmp
 cat ex3.4.sce >> tmp
 echo -e '```\n' >> tmp
 
-echo -e "\n##### Example 3.5\n" >> tmp
-cat ex3.5.md >> tmp
+echo -e "\n##### Example 3.5a\n" >> tmp
+cat ex3.5a.md >> tmp
 echo -e '\n```scilab' >> tmp
-cat ex3.5.sce >> tmp
+cat ex3.5a.sce >> tmp
+echo -e '```\n' >> tmp
+
+echo -e "\n##### Example 3.5b\n" >> tmp
+cat ex3.5b.md >> tmp
+echo -e '\n```scilab' >> tmp
+cat ex3.5b.sce >> tmp
 echo -e '```\n' >> tmp
 
 echo -e "\n##### Example 3.6\n" >> tmp

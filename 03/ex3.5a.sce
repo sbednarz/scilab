@@ -78,4 +78,25 @@ printf("C=%.4f mol/L\n", C)
 printf("D=%.4f mol/L\n", D)
 
 
+// #3
+
+A0 = 1 // mol/L
+B0 = 1 // mol/L
+K1 = 10
+K2 = 10
+
+guess = [1; 1; 1; 1]
+
+x = fsolve(guess, model)
+
+A = x(1)
+B = x(2)
+C = x(3) 
+D = x(4)
+
+printf("Case*: A0=%.1f mol/L B0=%.1f mol/L K1=%.1f K2=%.1f\n", A0,B0,K1,K2)
+printf("A=%.4f mol/L\n", A)
+printf("B=%.4f mol/L\n", B)
+printf("C=%.4f mol/L\n", C)
+printf("D=%.4f mol/L\n", D)
 
