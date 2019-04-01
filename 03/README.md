@@ -416,18 +416,67 @@ printf("D=%.4f mol/L\n", D)
 
 ```scilab
 // ex3.6
+// https://en.wikipedia.org/wiki/Extent_of_reaction
 
+/*
+
+2A <=> B + 3C
+
+A0 >0
+B0 >0
+C0 >0
+K
+
+at eq
+A, B, C
+
+*/
+
+
+function eq = model1(x)
+
+    Xi = x(1) // extent of reaction 
+    
+    A = -2*Xi + A0
+    B = 1*Xi + B0
+    C = 3*Xi + C0
+    
+    eq(1) = B*C^3 - K*A^2
+    
+endfunction
+
+
+A0 = 2   // mol/L
+B0 = 1   // mol/L
+C0 = 0 // mol/L
+
+K = 79.734375
+
+guess = [0.5]
+
+x = fsolve(guess, model1)
+
+Xi = x(1)
+A = -2*Xi + A0
+B = 1*Xi + B0
+C = 3*Xi + C0
+
+printf("Xi=%.3f\n", Xi)
+printf("A=%.3f\n", A)
+printf("B=%.3f\n", B)
+printf("C=%.3f\n", C)
+
+//-----------------------------------------------------
 
 /*
 
 A + B <=> C + D
 
-A0 = 1
-B0 = 1
-C0 = 0.1
-D0 = 0.2
-
-K = 10
+A0 >0
+B0 >0
+C0 >0
+D0 >0
+K
 
 at eq
 A, B, C, D
@@ -435,62 +484,129 @@ A, B, C, D
 */
 
 
-function eq = model(x)
+function eq = model2(x)
 
-    a = x(1) // conversion
+    Xi = x(1) // extent of reaction 
     
-    A = A0 - a*A0 + a*C0
-    B = B0 - a*B0 + a*D0
-    C = C0 - a*C0 + a*A0
-    D = D0 - a*D0 + a*B0
-    
+    A = -1*Xi + A0 
+    B = -1*Xi + B0
+    C = 1*Xi + C0
+    D = 1*Xi + D0
+
     eq(1) = C*D - K*A*B
     
 endfunction
 
 
+// #1
+
 A0 = 1   // mol/L
 B0 = 1   // mol/L
-C0 = 0.1 // mol/L
-D0 = 0.2 // mol/L
+C0 = 0 // mol/L 
+D0 = 0 // mol/L
 
-K = 10
+K = 1
 
-guess = [0.5]
+guess = [0]
+   
+x = fsolve(guess, model2)
 
-x = fsolve(guess, model)
+Xi = x(1)
+A = -1*Xi + A0 
+B = -1*Xi + B0
+C = 1*Xi + C0
+D = 1*Xi + D0
 
-a = x(1)
-A = A0 - a*A0 + a*C0
-B = B0 - a*B0 + a*D0
-C = C0 - a*C0 + a*A0
-D = D0 - a*D0 + a*B0
-
-printf("a=%.3f\n\n", a)
+printf("\nCase: A0=%.1f mol/L B0=%.1f mol/L A0=%.1f mol/L B0=%.1f mol/L K=%.1f\n", A0,B0,C0,D0,K)
+printf("Xi=%.3f\n", Xi)
 printf("A=%.3f\n", A)
 printf("B=%.3f\n", B)
 printf("C=%.3f\n", C)
 printf("D=%.3f\n", D)
 
-// How to check the results?
-// Type under scilab console:
-// A+B+C+D
-// A0+B0+C0+D0
+
+// #2
+
+A0 = 1   // mol/L
+B0 = 1   // mol/L
+C0 = 1 // mol/L 
+D0 = 1 // mol/L
+
+//
+K = 1
+
+guess = [0]
+   
+x = fsolve(guess, model2)
+
+Xi = x(1)
+A = -1*Xi + A0 
+B = -1*Xi + B0
+C = 1*Xi + C0
+D = 1*Xi + D0
+
+printf("\nCase: A0=%.1f mol/L B0=%.1f mol/L A0=%.1f mol/L B0=%.1f mol/L K=%.1f\n", A0,B0,C0,D0,K)
+printf("Xi=%.3f\n", Xi)
+printf("A=%.3f\n", A)
+printf("B=%.3f\n", B)
+printf("C=%.3f\n", C)
+printf("D=%.3f\n", D)
 
 
-/*
+// #3
 
-Results:
+A0 = 1   // mol/L
+B0 = 1   // mol/L
+C0 = 0.5 // mol/L 
+D0 = 0.5 // mol/L
 
-a=0.849
+//
+K = 1
 
-A=0.236
-B=0.321
-C=0.864
-D=0.879
+guess = [0]
+   
+x = fsolve(guess, model2)
 
-*/
+Xi = x(1)
+A = -1*Xi + A0 
+B = -1*Xi + B0
+C = 1*Xi + C0
+D = 1*Xi + D0
 
+printf("\nCase: A0=%.1f mol/L B0=%.1f mol/L A0=%.1f mol/L B0=%.1f mol/L K=%.1f\n", A0,B0,C0,D0,K)
+printf("Xi=%.3f\n", Xi)
+printf("A=%.3f\n", A)
+printf("B=%.3f\n", B)
+printf("C=%.3f\n", C)
+printf("D=%.3f\n", D)
+
+
+// #4
+
+A0 = 0   // mol/L
+B0 = 0   // mol/L
+C0 = 1 // mol/L 
+D0 = 1 // mol/L
+
+//
+K = 1
+
+guess = [0]
+   
+x = fsolve(guess, model2)
+
+Xi = x(1)
+A = -1*Xi + A0 
+B = -1*Xi + B0
+C = 1*Xi + C0
+D = 1*Xi + D0
+
+printf("\nCase: A0=%.1f mol/L B0=%.1f mol/L A0=%.1f mol/L B0=%.1f mol/L K=%.1f\n", A0,B0,C0,D0,K)
+printf("Xi=%.3f\n", Xi)
+printf("A=%.3f\n", A)
+printf("B=%.3f\n", B)
+printf("C=%.3f\n", C)
+printf("D=%.3f\n", D)
 ```
 
 
