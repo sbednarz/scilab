@@ -2,7 +2,7 @@
 // A => B k1
 // B => C k2
 //
-// How to find reaction time when concentration of B reach max.?
+// How to find reaction time when concentration of B reaches max.?
 
 
 
