@@ -89,7 +89,7 @@ endfunction
 function z = end_of_calculations(t, y)
 	A = y(1)
 	B = y(2)
-    z = B - 1.2 // B = 1.2 => B - 1.2 = 0
+	z = B - 1.2 // B = 1.2 => B - 1.2 = 0
 endfunction
 
 
