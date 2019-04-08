@@ -5,7 +5,8 @@
 
 #### MINIPROJECTS
 
-
+Submit your soulutions (Scilab code only) to: sbednarz@pk.edu.pl
+Deadline: 1 June 2019.
 ---
 
 
@@ -16,7 +17,7 @@ Do analysis of model of extraction (Example 2.3):
 How K impacts to recovery factor (r)?  
 What is influence of amount of org solvent used (F2) on r?
 Prepare plots to ilustrate your answers.
-Try to use Scilab loops to collect data.
+Try to use Scilab loops to organise your calculations.
 ```
 
 ##### Miniproject 2
@@ -36,6 +37,7 @@ cPrOH = 6 mol/L
 
 Build model of the system using of extent of reaction approach.
 Study effect of water in the initial mixture to concentrations of esters at equilibria (plot).
+Try to use Scilab loops to collect data needed.
 ```
 
 ##### Miniproject 3
