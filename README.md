@@ -16,6 +16,8 @@
 
 [Module 7. Misc](03/README.md)
 
+[Miniprojects](miniprojects/README.md)
+
 
 
 
