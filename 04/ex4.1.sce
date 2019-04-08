@@ -1,6 +1,6 @@
 
 // A => B, k
-// A = A0*np.exp(-k*t)
+// A = A0*exp(-k*t)
 
 
 
