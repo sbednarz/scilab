@@ -31,15 +31,31 @@ y = ode(y0, t0, t, model)
 //disp(y)
 
 //A(t)
-disp(y(1,:))   // first row
+A=y(1,:)   // first row
 
 //B(t)
-disp(y(2,:))   // second row
+B=y(2,:)  // second row
 
+
+// rate (!)
+// dA/dt
+
+dAdt = k*A
+
+
+clf
 //
-plot(t, y(1,:), '-or')
-plot(t, y(2,:), '-ob')
-legend(['A'; 'B'], [1;2])
+subplot(121)
+plot(t, A, '-or')
+plot(t, B, '-ob')
+legend(['A'; 'B'])
 xlabel('Time')
 ylabel('Concentration')
 
+
+//
+subplot(122)
+plot(t, dAdt, '-*b')
+legend(['dA/dt'])
+xlabel('Time')
+ylabel('Rate')
