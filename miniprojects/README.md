@@ -5,8 +5,10 @@
 
 #### MINIPROJECTS
 
+```scilab
 Submit your soulutions (Scilab code only) to: sbednarz@pk.edu.pl
 Deadline: 1 June 2019.
+```
 ---
 
 
