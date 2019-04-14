@@ -15,7 +15,7 @@ Deadline: 1 June 2019.
 ##### Miniproject 1
 
 ```scilab
-Do analysis of model of extraction (Example 2.3):
+Carry out the analysis of model of extraction (Example 2.3):
 How K impacts to recovery factor (r)?  
 What is influence of amount of org solvent used (F2) on r?
 Prepare plots to ilustrate your answers.

@@ -14,7 +14,6 @@
 
 [Module 6. Ideal Reactors](06/README.md)
 
-[Module 7. Misc](03/README.md)
 
 [Miniprojects](miniprojects/README.md)
 
