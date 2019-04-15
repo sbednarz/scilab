@@ -1,9 +1,10 @@
 
 // ex.6.3
 
-// solvent flow: 0.1 L/s
+// solvent enters to the tank with flow of 0.1 L/s
 // A + B -> C, k
 
+// accu = in - out + prod
 
 function dy = model(t, y)
 	
@@ -12,6 +13,8 @@ function dy = model(t, y)
     nA = y(2)
     nB = y(3)
     nC = y(4)
+    
+    // instant concentrations
     A = nA/V
     B = nB/V
     C = nC/V
