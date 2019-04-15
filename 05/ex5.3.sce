@@ -6,19 +6,19 @@
 function dy = model(t, y, T)
 	A = y(1)
 	B = y(2)
-    C = y(2)
+	C = y(2)
 
-    R = 8.314e-3 // kJ/(mol*K)
+	R = 8.314e-3 // kJ/(mol*K)
 
-    k01 = 1e11    // L/(mol*s)
-    Ea1 = 85      // kJ
+	k01 = 1e11	// L/(mol*s)
+	Ea1 = 85	  // kJ
 
-    k02 = 1e11    // L/(mol*s)
-    Ea2 = 88      // kJ
+	k02 = 1e11	// L/(mol*s)
+	Ea2 = 88	  // kJ
  
-    k1 = k01*exp(-Ea1/(R*T))
-    k2 = k02*exp(-Ea2/(R*T))
-    
+	k1 = k01*exp(-Ea1/(R*T))
+	k2 = k02*exp(-Ea2/(R*T))
+	
 	dAdt = -k1*A
 	dBdt = k1*A - k2*B
 	dCdt = k2*B
@@ -51,12 +51,12 @@ B=y(2,:)
 C=y(3,:)
 
 
-Aend=A($)
+Aend=A($) // $ - index of last vector element
 Bend=B($)
 Cend=C($)
 
 
-Conv = 100*Aend/A0        // conversion 3h
+Conv = 100*Aend/A0		// conversion 3h
 Sel = Bend/(Cend + Bend)  // selectivity 3h
 
 clf

@@ -4,17 +4,17 @@
 
 function dy = model(t, y)
 	T = y(1)
-    A = y(2)
+	A = y(2)
 	B = y(3)
 
-    k0 = 1e11    // L/(mol*s)
-    R = 8.314e-3 // kJ/(mol*K)
-    Ea = 78      // kJ
+	k0 = 1e11	// L/(mol*s)
+	R = 8.314e-3 // kJ/(mol*K)
+	Ea = 78	  // kJ
  
-    k = k0*exp(-Ea/(R*T))
+	k = k0*exp(-Ea/(R*T))
 	dAdt = -k*A
 	dBdt = k*A
-    dTdt = 0.1 // <---rate of heating/cooling K/s
+	dTdt = 0.1 // <---rate of heating/cooling K/s
 	dy=[dTdt, dAdt, dBdt]
 endfunction
 

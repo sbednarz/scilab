@@ -6,11 +6,11 @@ function dy = model(t, y, T)
 	A = y(1)
 	B = y(2)
 
-    k0 = 1e11    // L/(mol*s)
-    R = 8.314e-3 // kJ/(mol*K)
-    Ea = 78      // kJ
+	k0 = 1e11	// L/(mol*s)
+	R = 8.314e-3 // kJ/(mol*K)
+	Ea = 78	  // kJ
  
-    k = k0*exp(-Ea/(R*T))
+	k = k0*exp(-Ea/(R*T))
 	dAdt = -k*A
 	dBdt = k*A
 	dy=[dAdt, dBdt]
