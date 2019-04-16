@@ -46,7 +46,7 @@ Try to use Scilab loops to collect data needed.
 
 ```scilab 
 Based on a video material: https://www.youtube.com/watch?v=SqPO5UUxO_Y 
-develop a model of the system using Scilab, and solve the problem numerically. 
+develop a model of the system using Scilab (system of ODEs), and solve the problem numerically. 
 Plot D(t) and E(t) for ranged from 0 to 4h.
 What are final concentrations of D and E?
 ```
