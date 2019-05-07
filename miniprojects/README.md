@@ -7,7 +7,7 @@
 
 ```scilab
 Submit your soulutions (Scilab code only) to: sbednarz@pk.edu.pl
-Deadline: 1 June 2019.
+Deadline: 1 June 2019 (the first group) 30 June 2019 (the second group).
 ```
 ---
 
