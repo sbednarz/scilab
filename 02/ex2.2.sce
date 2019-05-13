@@ -28,12 +28,11 @@ printf("F2=%.2f\n", F2)
 printf("F3=%.2f\n", F3)
 
 
-/*
 
-Results:
 
-F2=0.48
-F2=19.52
+// Results:
+// F2=0.48
+// F2=19.52
 
-*/
+
 

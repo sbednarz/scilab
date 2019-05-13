@@ -62,16 +62,15 @@ printf("x3H2O=%.2f\n", x3H2O)
 
 
 
-/*
 
-Results:
 
-x1H2O=0.80
-F2=3702.00
-F2=4936.00
-x3H2O=0.95
+// Results:
+// 
+// x1H2O=0.80
+// F2=3702.00
+// F2=4936.00
+// x3H2O=0.95
 
-*/
 
 ```
 
@@ -115,14 +114,13 @@ printf("F2=%.2f\n", F2)
 printf("F3=%.2f\n", F3)
 
 
-/*
 
-Results:
 
-F2=0.48
-F2=19.52
+// Results:
+// F2=0.48
+// F2=19.52
 
-*/
+
 
 ```
 
@@ -173,33 +171,30 @@ printf("x3o=%.4f\n", x3o)
 printf("x4o=%.4f\n", x4o)
 
 
-// calc recovery factor
+// calculations of the recovery factor
 
 o1 = F1*x1o
 o2 = F3*x3o
 r = 100*o2/o1
 
-printf("Total oil in feed: %.4f kg/h\n",o1)
-printf("Oil extracted   : %.4f kg/h\n",o2)
-printf("Recovery: %.2f %%\n",r)
+printf("Total oil in the feed: %.4f kg/h\n",o1)
+printf("The amount of the oil extracted   : %.4f kg/h\n",o2)
+printf("The recovery: %.2f %%\n",r)
 
 
 
 
-/*
 
-Results:
-
-F2=0.1000 kg/h
-F3=0.1133 kg/h
-x3o=0.1176
-x4o=0.0034
-Total oil in feed: 0.0200 kg/h
-Oil extracted: 0.0133 kg/h
-Recovery: 66.63 %
+// Results:
+// F2=0.1000 kg/h
+// F3=0.1133 kg/h
+// x3o=0.1176
+// x4o=0.0034
+// Total oil in the feed: 0.0200 kg/h
+// The amount of the oil extracted: 0.0133 kg/h
+// The recovery: 66.63 %
 
 
-*/
 
 ```
 
