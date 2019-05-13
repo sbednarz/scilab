@@ -12,6 +12,10 @@
 
 ---
 
+Usefull materials: [Intro to ChemEngProc](https://en.wikibooks.org/wiki/Introduction_to_Chemical_Engineering_Processes) [DOF analysis](http://www.kau.edu.sa/GetFile.aspx?id=107506&fn=Lecture%202%20MB%20and%20degrees%20of%20freedom%20calculations.pdf)
+
+---
+
 
 ##### Example 2.1
 

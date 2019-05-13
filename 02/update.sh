@@ -7,6 +7,9 @@ echo "[Example 2.3](#example-23)" >> tmp
 echo "[Example 2.4](#example-21)" >> tmp
 echo -e "\n---\n" >> tmp
 
+echo -e "Usefull materials: [Intro to ChemEngProc](https://en.wikibooks.org/wiki/Introduction_to_Chemical_Engineering_Processes) [DOF analysis](http://www.kau.edu.sa/GetFile.aspx?id=107506&fn=Lecture%202%20MB%20and%20degrees%20of%20freedom%20calculations.pdf)" >> tmp
+
+echo -e "\n---\n" >> tmp
 
 echo -e "\n##### Example 2.1\n" >> tmp
 cat ex2.1.md >> tmp
