@@ -53,7 +53,7 @@ for x = mylist
     disp(x)
     disp(y)
     
-    // store parameter x and the result y
+    // store the parameter x and the result y
     results(i,1) = x
     results(i,2) = y    
     i = i + 1
