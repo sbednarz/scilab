@@ -37,8 +37,9 @@ end
 
 // loops & calculations
 
-// index
+// index varible set to a first matrix element
 i = 1
+
 // room for our results
 results=[]
 
