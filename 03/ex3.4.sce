@@ -1,17 +1,15 @@
 // ex3.4 updated
 
-/*
 
-A + B <=> 2C + D
 
-A0
-B0
-K
+// A + B <=> 2C + D
 
-at eq
-A, B, C, D
+// A0
+// B0
+// K
 
-*/
+// at eq
+// A, B, C, D
 
 
 function eq = model(x)
@@ -68,16 +66,14 @@ printf("B=%.2f\n", B)
 printf("C=%.2f\n", C)
 printf("D=%.2f\n", D)
 
-/*
 
-Results:
 
-A=0.34
-B=0.34
-C=1.32
-D=0.66
+//Results:
 
-*/
+//A=0.34
+//B=0.34
+//C=1.32
+//D=0.66
 
 // How to check the results?
 

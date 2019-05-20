@@ -1,20 +1,19 @@
 // ex3.5 updated
 
-/*
 
-A + B <=> C
-A + C <=> D
 
-A0
-B0
-K1
-K2
+// A + B <=> C
+// A + C <=> D
 
-calc
-A, B, C, D
-at eq
+// A0
+// B0
+// K1
+// K2
 
-*/
+// calc
+// A, B, C, D
+// at eq
+
 
 
 function eq = model(x)

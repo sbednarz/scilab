@@ -1,18 +1,17 @@
 // ex3.3
 
 
-/*
 
-A + B <=> C + D
 
-A0 = 1
-B0 = 1
-K = 10
+// A + B <=> C + D
 
-at eq
-A, B, C, D
+// A0 = 1
+// B0 = 1
+// K = 10
 
-*/
+// at eq
+// A, B, C, D
+
 
 
 function eq = model(x)

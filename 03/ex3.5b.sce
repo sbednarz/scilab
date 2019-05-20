@@ -1,21 +1,20 @@
-// ex3.55
+// ex3.5b
+// reaction extent approach
 
-/*
 
-A + B <=> C
-A + C <=> D
 
-A0
-B0
-K1
-K2
+// A + B <=> C
+// A + C <=> D
 
-calc
-A, B, C, D
-at eq
+// given:
+// A0
+// B0
+// K1
+// K2
 
-*/
-
+// calc
+// A, B, C, D
+// at eq
 
 function eq = model(x)
 

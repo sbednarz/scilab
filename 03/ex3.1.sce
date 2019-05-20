@@ -1,18 +1,17 @@
 // ex3.1
 
 
-/*
 
-A + B <=> C + D
 
-A0 = 1
-B0 = 1
-K = 10
+// A + B <=> C + D
+// 
+// A0 = 1
+// B0 = 1
+// K = 10
 
-at eq
-A, B, C, D
+// at eq
+// A, B, C, D
 
-*/
 
 
 function eq = model(x)
@@ -54,14 +53,12 @@ printf("D=%.2f\n", D)
 // A0+B0
 
 
-/*
 
-Results:
+// Results:
 
-A=0.24
-B=0.24
-C=0.76
-D=0.76
+// A=0.24
+// B=0.24
+// C=0.76
+// D=0.76
 
-*/
 

@@ -25,18 +25,17 @@
 // ex3.1
 
 
-/*
 
-A + B <=> C + D
 
-A0 = 1
-B0 = 1
-K = 10
+// A + B <=> C + D
+// 
+// A0 = 1
+// B0 = 1
+// K = 10
 
-at eq
-A, B, C, D
+// at eq
+// A, B, C, D
 
-*/
 
 
 function eq = model(x)
@@ -78,16 +77,14 @@ printf("D=%.2f\n", D)
 // A0+B0
 
 
-/*
 
-Results:
+// Results:
 
-A=0.24
-B=0.24
-C=0.76
-D=0.76
+// A=0.24
+// B=0.24
+// C=0.76
+// D=0.76
 
-*/
 
 ```
 
@@ -99,18 +96,17 @@ D=0.76
 // ex3.2
 
 
-/*
 
-A + B <=> C + D
 
-A0 = 1
-B0 = 1
-K = 10
+// A + B <=> C + D
 
-at eq
-A, B, C, D
+// A0 = 1
+// B0 = 1
+// K = 10
 
-*/
+// at eq
+// A, B, C, D
+
 
 
 function eq = model(x)
@@ -158,18 +154,17 @@ end
 // ex3.3
 
 
-/*
 
-A + B <=> C + D
 
-A0 = 1
-B0 = 1
-K = 10
+// A + B <=> C + D
 
-at eq
-A, B, C, D
+// A0 = 1
+// B0 = 1
+// K = 10
 
-*/
+// at eq
+// A, B, C, D
+
 
 
 function eq = model(x)
@@ -238,18 +233,16 @@ plot(results(:,1), results(:,4))
 ```scilab
 // ex3.4 updated
 
-/*
 
-A + B <=> 2C + D
 
-A0
-B0
-K
+// A + B <=> 2C + D
 
-at eq
-A, B, C, D
+// A0
+// B0
+// K
 
-*/
+// at eq
+// A, B, C, D
 
 
 function eq = model(x)
@@ -306,16 +299,14 @@ printf("B=%.2f\n", B)
 printf("C=%.2f\n", C)
 printf("D=%.2f\n", D)
 
-/*
 
-Results:
 
-A=0.34
-B=0.34
-C=1.32
-D=0.66
+//Results:
 
-*/
+//A=0.34
+//B=0.34
+//C=1.32
+//D=0.66
 
 // How to check the results?
 
@@ -330,21 +321,20 @@ D=0.66
 ```scilab
 // ex3.5 updated
 
-/*
 
-A + B <=> C
-A + C <=> D
 
-A0
-B0
-K1
-K2
+// A + B <=> C
+// A + C <=> D
 
-calc
-A, B, C, D
-at eq
+// A0
+// B0
+// K1
+// K2
 
-*/
+// calc
+// A, B, C, D
+// at eq
+
 
 
 function eq = model(x)
@@ -437,24 +427,23 @@ printf("D=%.4f mol/L\n", D)
 
 
 ```scilab
-// ex3.55
+// ex3.5b
+// reaction extent approach
 
-/*
 
-A + B <=> C
-A + C <=> D
 
-A0
-B0
-K1
-K2
+// A + B <=> C
+// A + C <=> D
 
-calc
-A, B, C, D
-at eq
+// given:
+// A0
+// B0
+// K1
+// K2
 
-*/
-
+// calc
+// A, B, C, D
+// at eq
 
 function eq = model(x)
 
@@ -513,19 +502,20 @@ printf("D=%.4f mol/L\n", D)
 // https://en.wikipedia.org/wiki/Extent_of_reaction
 // https://www.youtube.com/watch?v=fuk1zTdJifM
 
-/*
 
-2A <=> B + 3C
 
-A0 >0
-B0 >0
-C0 >0
-K
+// 2A <=> B + 3C
 
-at eq
-A, B, C
+// Given:
+// A0 >0
+// B0 >0
+// C0 >0
+// K
 
-*/
+// calc at eq
+// A, B, C
+
+
 
 
 function eq = model1(x)
@@ -561,22 +551,23 @@ printf("A=%.3f\n", A)
 printf("B=%.3f\n", B)
 printf("C=%.3f\n", C)
 
+
+
+
 //-----------------------------------------------------
 
-/*
 
-A + B <=> C + D
 
-A0 >0
-B0 >0
-C0 >0
-D0 >0
-K
+// A + B <=> C + D
+// Given:
+// A0 >0
+// B0 >0
+// C0 >0
+// D0 >0
+// K
 
-at eq
-A, B, C, D
-
-*/
+// calc at eq
+// A, B, C, D
 
 
 function eq = model2(x)
@@ -712,13 +703,10 @@ printf("D=%.3f\n", D)
 // ex3.7
 // Strong electrolyte equilibrium
 
-/*
 
-Calculate equilibrium concentrations of
-H+, OH- and Cl- in 0.1 mo/L and 1e-7 mol/L HCL solution.
+// Calculate equilibrium concentrations of
+// H+, OH- and Cl- in 0.1 mo/L and 1e-7 mol/L HCL solution.
 
-
-*/
 
 
 function eq = model(x)
@@ -755,17 +743,16 @@ printf("pH=%.2f\n", pH)
 
 
 
-/*
 
-Results:
+// Results:
 
-For cHCl = 1.00e-01 mol/L
-[H+]=1.00e-01 mol/L
-[OH-]=1.00e-13 mol/L
-[Cl-]=1.00e-01 mol/L
-pH=1.00
+// For cHCl = 1.00e-01 mol/L
+// [H+]=1.00e-01 mol/L
+// [OH-]=1.00e-13 mol/L
+// [Cl-]=1.00e-01 mol/L
+// pH=1.00
 
-*/
+
 
 ```
 
@@ -777,13 +764,10 @@ pH=1.00
 // ex3.8
 //  Weak electrolyte equilibrium
 
-/*
 
-Calculate equilibrium concentrations of
-H+, OH-, CH3COOH, and CH3COO- in 0.5 mo/L CH3COOH solution.
+// Calculate equilibrium concentrations of
+// H+, OH-, CH3COOH, and CH3COO- in 0.5 mo/L CH3COOH solution.
 
-
-*/
 
 
 function eq = model(x)
@@ -824,18 +808,17 @@ printf("[CH3COO-]=%.2e mol/L\n", ch3coo)
 printf("pH=%.2f\n", pH)
 
 
-/*
 
-Results:
 
-For cCH3COOH = 5.00e-01 mol/L
-[H+]=2.99e-03 mol/L
-[OH-]=3.34e-12 mol/L
-[CH3COOH]=4.97e-01 mol/L
-[CH3COO-]=2.99e-03 mol/L
-pH=2.52
+// Results:
 
-*/
+// For cCH3COOH = 5.00e-01 mol/L
+// [H+]=2.99e-03 mol/L
+// [OH-]=3.34e-12 mol/L
+// [CH3COOH]=4.97e-01 mol/L
+// [CH3COO-]=2.99e-03 mol/L
+// pH=2.52
+
 
 ```
 

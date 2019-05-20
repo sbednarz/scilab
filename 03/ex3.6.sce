@@ -2,19 +2,20 @@
 // https://en.wikipedia.org/wiki/Extent_of_reaction
 // https://www.youtube.com/watch?v=fuk1zTdJifM
 
-/*
 
-2A <=> B + 3C
 
-A0 >0
-B0 >0
-C0 >0
-K
+// 2A <=> B + 3C
 
-at eq
-A, B, C
+// Given:
+// A0 >0
+// B0 >0
+// C0 >0
+// K
 
-*/
+// calc at eq
+// A, B, C
+
+
 
 
 function eq = model1(x)
@@ -50,22 +51,23 @@ printf("A=%.3f\n", A)
 printf("B=%.3f\n", B)
 printf("C=%.3f\n", C)
 
+
+
+
 //-----------------------------------------------------
 
-/*
 
-A + B <=> C + D
 
-A0 >0
-B0 >0
-C0 >0
-D0 >0
-K
+// A + B <=> C + D
+// Given:
+// A0 >0
+// B0 >0
+// C0 >0
+// D0 >0
+// K
 
-at eq
-A, B, C, D
-
-*/
+// calc at eq
+// A, B, C, D
 
 
 function eq = model2(x)

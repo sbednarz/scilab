@@ -1,19 +1,17 @@
 // ex3.5
 
-/*
 
-A + B <=> C
-A + C <=> D
+// A + B <=> C
+// A + C <=> D
 
-A0 = 1
-B0 = 1
-K1 = 10
-K2 = 10
+// A0 = 1
+// B0 = 1
+// K1 = 10
+// K2 = 10
 
-at eq
-A, B, C, D
+// at eq
+// A, B, C, D
 
-*/
 
 
 function eq = model(x)
@@ -52,15 +50,12 @@ printf("D=%.2f mol/L\n", D)
 
 
 
-/*
-
-Results:
-
-A=0.09 mol/L
-B=0.52 mol/L
-C=0.48 mol/L
-D=0.43 mol/L
 
 
-*/
+// Results:
+
+// A=0.09 mol/L
+// B=0.52 mol/L
+// C=0.48 mol/L
+// D=0.43 mol/L
 

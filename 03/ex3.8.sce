@@ -1,13 +1,10 @@
 // ex3.8
 //  Weak electrolyte equilibrium
 
-/*
 
-Calculate equilibrium concentrations of
-H+, OH-, CH3COOH, and CH3COO- in 0.5 mo/L CH3COOH solution.
+// Calculate equilibrium concentrations of
+// H+, OH-, CH3COOH, and CH3COO- in 0.5 mo/L CH3COOH solution.
 
-
-*/
 
 
 function eq = model(x)
@@ -48,16 +45,15 @@ printf("[CH3COO-]=%.2e mol/L\n", ch3coo)
 printf("pH=%.2f\n", pH)
 
 
-/*
 
-Results:
 
-For cCH3COOH = 5.00e-01 mol/L
-[H+]=2.99e-03 mol/L
-[OH-]=3.34e-12 mol/L
-[CH3COOH]=4.97e-01 mol/L
-[CH3COO-]=2.99e-03 mol/L
-pH=2.52
+// Results:
 
-*/
+// For cCH3COOH = 5.00e-01 mol/L
+// [H+]=2.99e-03 mol/L
+// [OH-]=3.34e-12 mol/L
+// [CH3COOH]=4.97e-01 mol/L
+// [CH3COO-]=2.99e-03 mol/L
+// pH=2.52
+
 

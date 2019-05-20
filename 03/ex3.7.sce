@@ -1,13 +1,10 @@
 // ex3.7
 // Strong electrolyte equilibrium
 
-/*
 
-Calculate equilibrium concentrations of
-H+, OH- and Cl- in 0.1 mo/L and 1e-7 mol/L HCL solution.
+// Calculate equilibrium concentrations of
+// H+, OH- and Cl- in 0.1 mo/L and 1e-7 mol/L HCL solution.
 
-
-*/
 
 
 function eq = model(x)
@@ -44,15 +41,14 @@ printf("pH=%.2f\n", pH)
 
 
 
-/*
 
-Results:
+// Results:
 
-For cHCl = 1.00e-01 mol/L
-[H+]=1.00e-01 mol/L
-[OH-]=1.00e-13 mol/L
-[Cl-]=1.00e-01 mol/L
-pH=1.00
+// For cHCl = 1.00e-01 mol/L
+// [H+]=1.00e-01 mol/L
+// [OH-]=1.00e-13 mol/L
+// [Cl-]=1.00e-01 mol/L
+// pH=1.00
 
-*/
+
 
