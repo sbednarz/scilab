@@ -9,6 +9,7 @@
 [Example 2.2](#example-22)
 [Example 2.3](#example-23)
 [Example 2.4](#example-24)
+[Example 2.5](#example-25)
 
 ---
 
@@ -210,6 +211,22 @@ Fractional conversion (alpha) of the monomer into the polymerin the reactor (R) 
 Calculate flow of the recycled stream assuming ideal separation of the polymer in the separator (S).
 
 ![scheme](ex2.4.svg "")
+
+
+
+```scilab
+```
+
+
+##### Example 2.5
+
+Consider a continuous steady-state process of polymerization with recycle of an unreacted monomer (scheme).
+Fractional conversion of the monomer to polymer alpha in the reactor (R) is 60% per pass. 
+Calculate flow of the recycled stream of the monomer 
+if the polymer separated in the separator (S) contains 5% of the monomer.
+
+
+![scheme](ex2.5.svg "")
 
 
 
