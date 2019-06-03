@@ -27,8 +27,8 @@ y = ode(y0, t0, t, model)
 
 
 
-//disp(t)
-//disp(y)
+disp(t)
+disp(y)
 
 //A(t)
 A=y(1,:)   // first row
@@ -37,7 +37,7 @@ A=y(1,:)   // first row
 B=y(2,:)  // second row
 
 
-// rate (!)
+// instantaneous rates
 // dA/dt
 
 dAdt = k*A
