@@ -1,11 +1,11 @@
 ---
-### Computer Modelling in Chemical Technology: Scilab worked examples
+### Computer Modelling in Chemical Technology
 ---
 
-[Entere the course 2020 Edition](2020/README.md)
+[The course 2020 Edition](2020/README.md)
 
 
-Examples:
+Scilab worked examples:
 
 [Module 1. Scilab Introduction](01/README.md)
 
@@ -19,6 +19,8 @@ Examples:
 
 [Module 6. Ideal Reactors](06/README.md)
 
+
+Past projects:
 
 [Miniprojects](miniprojects/README.md)
 
