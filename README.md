@@ -2,6 +2,11 @@
 ### Computer Modelling in Chemical Technology: Scilab worked examples
 ---
 
+[Entere the course 2020 Edition](2020/README.md)
+
+
+Examples:
+
 [Module 1. Scilab Introduction](01/README.md)
 
 [Module 2. Mass Balance](02/README.md)
