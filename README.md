@@ -2,8 +2,9 @@
 ### Computer Modelling in Chemical Technology
 ---
 
-[The course 2020 Edition](2020/README.md)
+[The course - 2020 Edition](2020/README.md)
 
+---
 
 Scilab worked examples:
 
