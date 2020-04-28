@@ -16,7 +16,7 @@ https://www.scilab.org/sites/default/files/Scilab_beginners.pdf pages 5-7
 https://mars.uta.edu/mae3183/simulation/introscilab_baudin.pdf pages 17-19
 
 
-Using Scilab please calculate the following expressions:
+Please calculate the following expressions using Scilab:
 
 <img src="http://www.sciweavers.org/upload/Tex2Img_1588066790/render.png" />
 
