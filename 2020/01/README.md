@@ -3,7 +3,7 @@
 ## Class 01 - Scilab basics, 27 Apr - 3 May
 
 
-Fill the [answer sheet](https://github.com/sbednarz/scilab/raw/master/2020/01/class01_firstname_surname.odt).
+Please fill the [answer sheet](https://github.com/sbednarz/scilab/raw/master/2020/01/class01_firstname_surname.odt).
 
 #### Exercise 1. 
 
