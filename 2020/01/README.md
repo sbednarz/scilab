@@ -56,6 +56,8 @@ https://mars.uta.edu/mae3183/simulation/introscilab_baudin.pdf pages 21-23, 25-3
 
 https://github.com/sbednarz/scilab/blob/master/01/README.md#example-11-intro
 
+https://www.onlinemathlearning.com/matrices-rows-columns.html
+
 Follow the instructions:
 
 a) Please create vector a:
@@ -68,10 +70,17 @@ b) Please create matrix b:
 
 c) Select underlined element from matrix b:
 
-<img= src="http://www.sciweavers.org/upload/Tex2Img_1588085650/render.png" />
+<img src="http://www.sciweavers.org/upload/Tex2Img_1588085650/render.png" />
+
+d) Select underlined elements from matrix b:
+
+<img src="http://www.sciweavers.org/upload/Tex2Img_1588085868/render.png" />
+
+e) Select underlined elements from matrix b:
+
+<img src="http://www.sciweavers.org/upload/Tex2Img_1588085962/render.png" />
 
 
-https://www.onlinemathlearning.com/matrices-rows-columns.html
 
 #### Exercise 3. Plotting
 
