@@ -22,11 +22,11 @@ a) For a=1.0e-3 b=2.5e-3 c=6.3e-4
 
 <img src="http://www.sciweavers.org/upload/Tex2Img_1588067271/render.png" />
 
-a) For a=10 and b=3.5
+b) For a=10 and b=3.5
 
 <img src="http://www.sciweavers.org/upload/Tex2Img_1588066790/render.png" />
 
-b) For a=1e-5 and b=10
+c) For a=1e-5 and b=10
 
 <img src="http://www.sciweavers.org/upload/Tex2Img_1588067100/render.png" />
 
