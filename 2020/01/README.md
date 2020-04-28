@@ -5,7 +5,7 @@
 
 Please fill the [answer sheet](https://github.com/sbednarz/scilab/raw/master/2020/01/class01_firstname_surname.odt).
 
-#### Exercise 1. 
+#### Exercise 1. Arithmetic expressions
 
 Watch videos: 
 
@@ -40,10 +40,28 @@ d) For  A=2.5 B=1.2 C=1.5e2
 <img src="http://www.sciweavers.org/upload/Tex2Img_1588067722/render.png" />
 
 
-Matrix access:
+#### Exercise 2. Matrices - first steps
+
+Watch videos: 
+
 https://www.youtube.com/watch?v=zsP_LdN9YjY
 
+and study tutorials: 
 
+https://www.scilab.org/sites/default/files/Scilab_beginners.pdf page 14
+
+https://mars.uta.edu/mae3183/simulation/introscilab_baudin.pdf pages 21-23, 25-30
+
+https://github.com/sbednarz/scilab/blob/master/01/README.md#example-11-intro
+
+Please calculate the following expressions using Scilab:
+
+a) For a=1.0e-3 b=2.5e-3 c=6.3e-4
+
+<img src="http://www.sciweavers.org/upload/Tex2Img_1588067271/render.png" />
+
+
+#### Exercise 3. Plotting
 
 Plots:
 https://www.youtube.com/watch?v=rG7_2SmweL4
