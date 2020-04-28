@@ -44,6 +44,8 @@ d) For  A=2.5 B=1.2 C=1.5e2
 
 Watch videos: 
 
+https://www.youtube.com/watch?v=mwRiVqoarqI
+
 https://www.youtube.com/watch?v=zsP_LdN9YjY
 
 and study tutorials: 
