@@ -5,9 +5,11 @@
 
 #### Exercise 1. 
 
-Watch the video: 
+Watch videos: 
 
 https://www.youtube.com/watch?v=kJR3MdEJVy0 
+
+https://www.youtube.com/watch?v=UlgN4UHWvmU
 
 and study tutorials: 
 
@@ -36,7 +38,7 @@ d) For  A=2.5 B=1.2 C=1.5e2
 
 
 Variables:
-https://www.youtube.com/watch?v=UlgN4UHWvmU
+
 
 Matrix access:
 https://www.youtube.com/watch?v=zsP_LdN9YjY
