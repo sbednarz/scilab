@@ -30,6 +30,9 @@ c) For a=1e-5 and b=10
 
 <img src="http://www.sciweavers.org/upload/Tex2Img_1588067100/render.png" />
 
+d) For  A=2.5 B=1.2 C=1e-2
+
+<img src="http://www.sciweavers.org/upload/Tex2Img_1588067722/render.png" />
 
 
 Variables:
