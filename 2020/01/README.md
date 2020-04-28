@@ -3,6 +3,8 @@
 ## Class 01 - Scilab basics, 27 Apr - 3 May
 
 
+Fill the answer sheet.
+
 #### Exercise 1. 
 
 Watch videos: 
@@ -38,40 +40,17 @@ d) For  A=2.5 B=1.2 C=1.5e2
 <img src="http://www.sciweavers.org/upload/Tex2Img_1588067722/render.png" />
 
 
-Variables:
-
-
 Matrix access:
 https://www.youtube.com/watch?v=zsP_LdN9YjY
+
+
 
 Plots:
 https://www.youtube.com/watch?v=rG7_2SmweL4
 
-List of mathematical functions to learn:
+List of mathematical functions to learn: log log10 exp sqrt
 
-log
-
-log10
-
-exp
-
-sqrt
-
-
-List of non-mathematical functions to learn:
-disp
-
-print
-
-clear
-
-plot
-
-clf
-
-xlabel
-
-ylabel
+List of non-mathematical functions to learn: disp print clear plot clf xlabel ylabel
 
 https://www.youtube.com/watch?v=kJR3MdEJVy0
 
