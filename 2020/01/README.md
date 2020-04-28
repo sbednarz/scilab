@@ -10,6 +10,15 @@ https://github.com/sbednarz/scilab/blob/master/01/README.md
 
 https://www.scilab.org/sites/default/files/Scilab_beginners.pdf
 
+1. Watch the video: https://www.youtube.com/watch?v=kJR3MdEJVy0
+and study
+
+tutorials: 
+
+https://www.scilab.org/sites/default/files/Scilab_beginners.pdf pages 5-7
+
+https://mars.uta.edu/mae3183/simulation/introscilab_baudin.pdf pages 17-19
+
 
 
 
