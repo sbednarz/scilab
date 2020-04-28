@@ -4,17 +4,13 @@
 ### Scilab basics
 ---
 
-https://www.youtube.com/watch?v=kJR3MdEJVy0
 
-https://github.com/sbednarz/scilab/blob/master/01/README.md
 
-https://www.scilab.org/sites/default/files/Scilab_beginners.pdf
+1 Watch the video: 
 
-1.
+https://www.youtube.com/watch?v=kJR3MdEJVy0 
 
-Watch the video: https://www.youtube.com/watch?v=kJR3MdEJVy0 and study
-
-tutorials: 
+and study tutorials: 
 
 https://www.scilab.org/sites/default/files/Scilab_beginners.pdf pages 5-7
 
@@ -57,3 +53,9 @@ clf
 xlabel
 
 ylabel
+
+https://www.youtube.com/watch?v=kJR3MdEJVy0
+
+https://github.com/sbednarz/scilab/blob/master/01/README.md
+
+https://www.scilab.org/sites/default/files/Scilab_beginners.pdf
