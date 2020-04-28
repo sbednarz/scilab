@@ -54,11 +54,11 @@ https://mars.uta.edu/mae3183/simulation/introscilab_baudin.pdf pages 21-23, 25-3
 
 https://github.com/sbednarz/scilab/blob/master/01/README.md#example-11-intro
 
-Please calculate the following expressions using Scilab:
+Follow the instructions:
 
-a) For a=1.0e-3 b=2.5e-3 c=6.3e-4
+a) Please create a vector:
 
-<img src="http://www.sciweavers.org/upload/Tex2Img_1588067271/render.png" />
+<img src="http://www.sciweavers.org/upload/Tex2Img_1588071092/render.png" />
 
 
 #### Exercise 3. Plotting
