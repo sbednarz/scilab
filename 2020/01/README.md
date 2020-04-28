@@ -3,7 +3,7 @@
 ## Class 01 - Scilab basics, 27 Apr - 3 May
 
 
-Fill the answer sheet.
+Fill the [answer sheet](class01_firstname_surname.odt).
 
 #### Exercise 1. 
 
