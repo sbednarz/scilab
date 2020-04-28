@@ -22,3 +22,12 @@ https://www.youtube.com/watch?v=zsP_LdN9YjY
 
 Plots:
 https://www.youtube.com/watch?v=rG7_2SmweL4
+
+List of functions:
+disp
+print
+clear
+plot
+clf
+xlabel
+ylabel
