@@ -119,4 +119,4 @@ Working on Scilab console, arithmetic operators, variables, matrices - basic ope
 
 List of mathematical functions to learn: log log10 exp sqrt sin cos
 
-List of non-mathematical functions to learn: disp print clear plot clf xlabel ylabel
+List of non-mathematical functions to learn: disp clear plot clf xlabel ylabel
