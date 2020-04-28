@@ -2,7 +2,7 @@
 
 ## Class 01, 27 Apr - 3 May
 ### Scilab basics
-
+---
 
 https://www.youtube.com/watch?v=kJR3MdEJVy0
 
@@ -10,8 +10,9 @@ https://github.com/sbednarz/scilab/blob/master/01/README.md
 
 https://www.scilab.org/sites/default/files/Scilab_beginners.pdf
 
-1. Watch the video: https://www.youtube.com/watch?v=kJR3MdEJVy0
-and study
+1.
+
+Watch the video: https://www.youtube.com/watch?v=kJR3MdEJVy0 and study
 
 tutorials: 
 
