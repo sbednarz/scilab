@@ -52,5 +52,4 @@ List of mathematical functions to learn: log log10 exp sqrt
 
 List of non-mathematical functions to learn: disp print clear plot clf xlabel ylabel
 
-https://www.youtube.com/watch?v=kJR3MdEJVy0
 
