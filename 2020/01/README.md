@@ -18,7 +18,7 @@ https://mars.uta.edu/mae3183/simulation/introscilab_baudin.pdf pages 17-19
 
 Using Scilab please calculate the following expressions:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+<img src=http://www.sciweavers.org/upload/Tex2Img_1588066790/render.png" />
 
 
 Variables:
