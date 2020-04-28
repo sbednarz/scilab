@@ -17,6 +17,7 @@ https://www.scilab.org/sites/default/files/Scilab_beginners.pdf pages 5-7
 
 https://mars.uta.edu/mae3183/simulation/introscilab_baudin.pdf pages 17-19
 
+https://github.com/sbednarz/scilab/blob/master/01/README.md#example-11-intro
 
 Please calculate the following expressions using Scilab:
 
@@ -74,6 +75,3 @@ ylabel
 
 https://www.youtube.com/watch?v=kJR3MdEJVy0
 
-https://github.com/sbednarz/scilab/blob/master/01/README.md
-
-https://www.scilab.org/sites/default/files/Scilab_beginners.pdf
