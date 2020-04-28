@@ -58,7 +58,7 @@ Follow the instructions:
 
 a) Please create a vector:
 
-<img src="http://www.sciweavers.org/upload/Tex2Img_1588071092/render.png" />
+<img src="http://www.sciweavers.org/upload/Tex2Img_1588071239/render.png" />
 
 
 #### Exercise 3. Plotting
