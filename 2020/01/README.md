@@ -64,7 +64,7 @@ a) Please create vector a:
 
 b) Please create matrix b:
 
-<img= src="http://www.sciweavers.org/upload/Tex2Img_1588071310/render.png" />
+<img src="http://www.sciweavers.org/upload/Tex2Img_1588071310/render.png" />
 
 c) Select 
 
