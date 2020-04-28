@@ -18,7 +18,14 @@ https://mars.uta.edu/mae3183/simulation/introscilab_baudin.pdf pages 17-19
 
 Please calculate the following expressions using Scilab:
 
+a) For a=10 and b=3.5
+
 <img src="http://www.sciweavers.org/upload/Tex2Img_1588066790/render.png" />
+
+b) For a=1e-5 and b=10
+
+<img src="http://www.sciweavers.org/upload/Tex2Img_1588067100/render.png />
+
 
 
 Variables:
