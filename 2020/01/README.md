@@ -3,7 +3,7 @@
 ## Class 01 - Scilab basics, 28 Apr - 3 May
 
 
-Please fill the [answer sheet](https://github.com/sbednarz/scilab/raw/master/2020/01/class01_firstname_surname.odt). For making screenshots of selected screen area [Lightshot app](https://app.prntscr.com/en/index.html) is suggested.
+Please fill the [answer sheet](https://github.com/sbednarz/scilab/raw/master/2020/01/class01_firstname_surname.odt). For making screenshots of selected screen area using of [Lightshot app](https://app.prntscr.com/en/index.html) is suggested.
 
 #### Exercise 1. Arithmetic expressions
 
