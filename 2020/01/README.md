@@ -50,7 +50,7 @@ and study tutorials:
 
 https://www.scilab.org/sites/default/files/Scilab_beginners.pdf page 14
 
-https://www.cse.iitb.ac.in/~sohoni/TD604/sundry/Scilab_Tutorial.pdf pages 9-10 (optional 11-15) 
+https://www.cse.iitb.ac.in/~sohoni/TD604/sundry/Scilab_Tutorial.pdf pages 9-10 (optionally 11-15) 
 
 https://mars.uta.edu/mae3183/simulation/introscilab_baudin.pdf pages 21-23, 25-30
 
