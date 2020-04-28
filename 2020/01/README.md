@@ -84,8 +84,24 @@ e) Select underlined elements from matrix b:
 
 #### Exercise 3. Plotting
 
-Plots:
+Watch videos: 
+
 https://www.youtube.com/watch?v=rG7_2SmweL4
+https://www.youtube.com/watch?v=K_PquvF2cAM
+
+
+and study a tutorial:
+
+https://www.scilab.org/sites/default/files/Scilab_beginners.pdf pages 18-21
+
+Follow the instructions:
+
+a) Using Scilab console please prepare a plot of a function:
+
+<img src="http://www.sciweavers.org/upload/Tex2Img_1588087464/render.png" />
+
+for x -10 to 10.
+
 
 #### Summary
 List of mathematical functions to learn: log log10 exp sqrt
