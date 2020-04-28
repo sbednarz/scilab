@@ -64,23 +64,23 @@ Follow the instructions:
 
 a) Please create vector a:
 
-<img src="http://www.sciweavers.org/upload/Tex2Img_1588071239/render.png" />
+<img src="05.png" />
 
 b) Please create matrix b:
 
-<img src="http://www.sciweavers.org/upload/Tex2Img_1588072989/render.png" />
+<img src="06.png" />
 
 c) Select the underlined element from matrix b:
 
-<img src="http://www.sciweavers.org/upload/Tex2Img_1588085650/render.png" />
+<img src="07.png" />
 
 d) Select underlined elements from matrix b:
 
-<img src="http://www.sciweavers.org/upload/Tex2Img_1588085868/render.png" />
+<img src="08.png" />
 
 e) Select underlined elements from matrix b:
 
-<img src="http://www.sciweavers.org/upload/Tex2Img_1588085962/render.png" />
+<img src="09.png" />
 
 Variable browser could help to understand matrices structure.
 
