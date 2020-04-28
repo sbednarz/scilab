@@ -1,12 +1,14 @@
 ### Computer Modelling in Chemical Technology, 2020 Edition
 
 ## Class 01, 27 Apr - 3 May
-### Scilab basics
+## Scilab basics
 ---
 
 
 
-1 Watch the video: 
+#### Exercise 1. 
+
+Watch the video: 
 
 https://www.youtube.com/watch?v=kJR3MdEJVy0 
 
