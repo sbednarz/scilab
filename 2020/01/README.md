@@ -50,16 +50,25 @@ and study tutorials:
 
 https://www.scilab.org/sites/default/files/Scilab_beginners.pdf page 14
 
+https://www.cse.iitb.ac.in/~sohoni/TD604/sundry/Scilab_Tutorial.pdf pages 9-10 (optional 11-15) 
+
 https://mars.uta.edu/mae3183/simulation/introscilab_baudin.pdf pages 21-23, 25-30
 
 https://github.com/sbednarz/scilab/blob/master/01/README.md#example-11-intro
 
 Follow the instructions:
 
-a) Please create a vector:
+a) Please create vector a:
 
 <img src="http://www.sciweavers.org/upload/Tex2Img_1588071239/render.png" />
 
+b) Please create matrix b:
+
+<img= src="http://www.sciweavers.org/upload/Tex2Img_1588071310/render.png" />
+
+c) Select 
+
+https://www.onlinemathlearning.com/matrices-rows-columns.html
 
 #### Exercise 3. Plotting
 
