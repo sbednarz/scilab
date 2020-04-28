@@ -80,7 +80,7 @@ e) Select underlined elements from matrix b:
 
 <img src="http://www.sciweavers.org/upload/Tex2Img_1588085962/render.png" />
 
-
+Variable browser could help to understand metrices structure.
 
 #### Exercise 3. Plotting
 
@@ -114,8 +114,9 @@ Plot temperature versus time.
 
 
 #### Summary
-List of mathematical functions to learn: log log10 exp sqrt
+
+Working on Scilab console, arithmetic operators, variables, matrices - basic operations: creation, indexing, selecting (colon operator), 2D plots.
+
+List of mathematical functions to learn: log log10 exp sqrt sin cos
 
 List of non-mathematical functions to learn: disp print clear plot clf xlabel ylabel
-
-
