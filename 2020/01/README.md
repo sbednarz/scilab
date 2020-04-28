@@ -66,7 +66,10 @@ b) Please create matrix b:
 
 <img src="http://www.sciweavers.org/upload/Tex2Img_1588072989/render.png" />
 
-c) Select 
+c) Select underlined element from matrix b:
+
+<img= src="http://www.sciweavers.org/upload/Tex2Img_1588085650/render.png" />
+
 
 https://www.onlinemathlearning.com/matrices-rows-columns.html
 
