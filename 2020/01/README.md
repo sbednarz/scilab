@@ -101,15 +101,15 @@ Follow the instructions:
 
 a) Using Scilab console please prepare a plot of a function:
 
-<img src="http://www.sciweavers.org/upload/Tex2Img_1588087464/render.png" />
+<img src="10.png" />
 
 for x from -10 to 10.
 
 b) Using Scilab console please create two vectors:
 
-<img src="http://www.sciweavers.org/upload/Tex2Img_1588087650/render.png" />
+<img src="11.png" />
+<img src="12.png" />
 
-<img src="http://www.sciweavers.org/upload/Tex2Img_1588087695/render.png" />
 
 Plot temperature versus time.
 
