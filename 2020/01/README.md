@@ -87,6 +87,7 @@ e) Select underlined elements from matrix b:
 Watch videos: 
 
 https://www.youtube.com/watch?v=rG7_2SmweL4
+
 https://www.youtube.com/watch?v=K_PquvF2cAM
 
 
