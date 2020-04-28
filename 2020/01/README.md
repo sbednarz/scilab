@@ -22,18 +22,28 @@ https://www.youtube.com/watch?v=zsP_LdN9YjY
 Plots:
 https://www.youtube.com/watch?v=rG7_2SmweL4
 
-List of mathematical functions:
+List of mathematical functions to learn:
+
 log
+
 log10
+
 exp
+
 sqrt
 
 
-List of non-mathematical functions:
+List of non-mathematical functions to learn:
 disp
+
 print
+
 clear
+
 plot
+
 clf
+
 xlabel
+
 ylabel
