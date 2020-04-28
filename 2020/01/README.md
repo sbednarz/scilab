@@ -70,7 +70,7 @@ b) Please create matrix b:
 
 <img src="http://www.sciweavers.org/upload/Tex2Img_1588072989/render.png" />
 
-c) Select the nderlined element from matrix b:
+c) Select the underlined element from matrix b:
 
 <img src="http://www.sciweavers.org/upload/Tex2Img_1588085650/render.png" />
 
@@ -82,7 +82,7 @@ e) Select underlined elements from matrix b:
 
 <img src="http://www.sciweavers.org/upload/Tex2Img_1588085962/render.png" />
 
-Variable browser could help to understand metrices structure.
+Variable browser could help to understand matrices structure.
 
 #### Exercise 3. Plotting
 
