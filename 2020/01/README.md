@@ -108,6 +108,7 @@ for x from -10 to 10.
 b) Using Scilab console please create two vectors:
 
 <img src="11.png" />
+
 <img src="12.png" />
 
 
