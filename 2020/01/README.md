@@ -29,15 +29,15 @@ a) For a=1.0e-3 b=2.5e-3 c=6.3e-4
 
 b) For a=10 and b=3.5
 
-<img src="http://www.sciweavers.org/upload/Tex2Img_1588066790/render.png" />
+<img src="02.png" />
 
 c) For a=1e-5 and b=10
 
-<img src="http://www.sciweavers.org/upload/Tex2Img_1588067100/render.png" />
+<img src="03.png" />
 
 d) For  A=2.5 B=1.2 C=1.5e2
 
-<img src="http://www.sciweavers.org/upload/Tex2Img_1588067722/render.png" />
+<img src="04.png" />
 
 
 #### Exercise 2. Matrices - first steps
