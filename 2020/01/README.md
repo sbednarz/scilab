@@ -24,7 +24,7 @@ a) For a=10 and b=3.5
 
 b) For a=1e-5 and b=10
 
-<img src="http://www.sciweavers.org/upload/Tex2Img_1588067100/render.png />
+<img src="http://www.sciweavers.org/upload/Tex2Img_1588067100/render.png" />
 
 
 
