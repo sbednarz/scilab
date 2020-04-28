@@ -25,7 +25,7 @@ Please calculate the following expressions using Scilab:
 
 a) For a=1.0e-3 b=2.5e-3 c=6.3e-4
 
-<img src="http://www.sciweavers.org/upload/Tex2Img_1588067271/render.png" />
+<img src="01.png" />
 
 b) For a=10 and b=3.5
 
