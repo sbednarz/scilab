@@ -52,6 +52,9 @@ disp(fun1(10))
 Follow the code line-by-line, and try to understand. 
 Play with the code to see what happened.
 
+Here is an example of function for calculation of the formula:
+
+<img src="00.png" />
 
 Create a new script in Scilab, copy and paste the code, and run the script:
 
