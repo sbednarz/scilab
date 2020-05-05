@@ -111,7 +111,9 @@ disp(calculate(10,20))
 
 #### Exercise 1
 
-Create a new script. Define a funtion for calculation of:
+Create a new script. Define a funtion to calculate density of water at various temperature, rho=f(T):
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4909168/ eq. 3.
+Plot water density for temperature range from 5 to 40oC.
 
 
 
