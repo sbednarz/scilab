@@ -185,8 +185,28 @@ Compare Scilab code and Wolfram Alpha calculations:
 https://www.wolframalpha.com/input/?i=x%5E2%2By%3D16%2C+x%3D10-y+
 
 ```scilab
+//https://www.wolframalpha.com/input/?i=x%5E2%2By%3D16%2C+x%3D10-y+
+
+// Nonlinear equations system
+// 1) x^2 + y = 16
+// 2) x = 10 - y
+// two equations, two unknowns
+
+// var is a two-element vector
+// eq is also a two-element vector
+function eq = problem(var)
+    x = var(1)
+    y = var(2)
+    eq(1) = x^2 + y - 16
+    eq(2) = x - 10 + y 
+endfunction
 
 
+// try 10;10 or -10;-10
+guess = [-10;-10]     // semicolon here, NOT comma
+
+solution = fsolve(guess, problem)
+disp(solution)
 ```
 
 #### Exercise 1
