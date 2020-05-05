@@ -66,8 +66,10 @@ Create a new script in Scilab, copy and paste the code, and run the script:
 
 ```scilab
 function y = fun2 (x)
-	z = x**2
-	y = z + 1
+	a = 2       // a local variable as a parameter
+	b = 1       // a local variable as a parameter
+	z = x^a
+	y = z + b
 endfunction
 
 disp(fun2(10))
