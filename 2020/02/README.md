@@ -29,7 +29,7 @@ and the video:
 https://www.youtube.com/watch?v=ZEa2xOXwrJs
 
 
-Study the following examples
+Create new script in Scilab, copy and paste the code, and run the script:
 
 ```scilab
 // fun1 => a function name
@@ -49,6 +49,11 @@ disp(b)
 disp(fun1(10))
 ```
 
+Follow the code line-by-line try to understand. Do more experiments undr the console to better understand the matter.
+
+
+Create new script in Scilab, copy and paste the code, and run the script:
+
 ```scilab
 function y = fun2 (x)
 	z = x**2
@@ -58,6 +63,10 @@ endfunction
 disp(fun2(10))
 // 101
 ```
+
+Try to modify the script to calculate expression:  y = x^2+10
+
+Functions could accept more than one argument:
 
 ```scilab
 
@@ -69,6 +78,7 @@ endfunction
 disp(calculate(10,20))
 //30
 ```
+
 
 
 ```scilab
