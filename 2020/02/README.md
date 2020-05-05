@@ -2,7 +2,7 @@
 
 ## Class 02 - Scilab basics, 4 May - 10 May
 
-#### Warming up exercise
+### Warming up exercise
 
 In the most cases a very convenient way of using Scilab is writing commands into a file called "script". The script is a simply text file, which could be loaded/saved/send, or edited via a text editor, even by notepad. Scilab could load & execute the script.
 
@@ -16,7 +16,7 @@ Go to the console, and type `x <ENTER>` or use the variable browser to inspect x
 Please remember that command `clf` clear plotting area, whereas `clear` clear scilab memory. Both functions are usefull.
 
 
-#### Introduction: User-defined functions
+### Introduction: User-defined functions
 
 Study tutorials:
 
@@ -140,7 +140,7 @@ disp(fun3(v))
 // 8
 ```
 
-#### Introduction: numerical solving system of nonlinear equations
+### Introduction: numerical solving system of nonlinear equations
 
 Please browse the official documentation: https://help.scilab.org/docs/6.1.0/en_US/fsolve.html
 
@@ -209,15 +209,15 @@ solution = fsolve(guess, problem)
 disp(solution)
 ```
 
-Please send back Scilab scripts (Exercise 1, 2 and 3) with solutions.
 
-#### Exercise 1
+
+### Exercise 1
 
 Create a new script. Define a funtion to calculate density of water at various temperature, rho=f(T):
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4909168/ eq. 3.
 Plot water density for temperature range from 5 to 40oC.
 
-#### Exercise 2
+### Exercise 2
 
 Solve equation:
 
@@ -225,7 +225,7 @@ Solve equation:
 
 Report all solutions.
 
-#### Exercise 3
+### Exercise 3
 
 Solve system of two equations:
 
@@ -234,7 +234,7 @@ Solve system of two equations:
 Report all solutions.
 
 
-
+*Please send back Scilab scripts (Exercise 1, 2 and 3) with solutions.*
 
 
 #### Summary
