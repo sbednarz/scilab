@@ -29,7 +29,7 @@ and the video:
 https://www.youtube.com/watch?v=ZEa2xOXwrJs
 
 
-Create new script in Scilab, copy and paste the code, and run the script:
+Create a new script in Scilab/Scinotes, copy and paste the code, and run the script:
 
 ```scilab
 // fun1 => a function name
@@ -49,10 +49,11 @@ disp(b)
 disp(fun1(10))
 ```
 
-Follow the code line-by-line try to understand. Do more experiments undr the console to better understand the matter.
+Follow the code line-by-line, and try to understand. 
+Play with the code to see what happened.
 
 
-Create new script in Scilab, copy and paste the code, and run the script:
+Create a new script in Scilab, copy and paste the code, and run the script:
 
 ```scilab
 function y = fun2 (x)
@@ -64,9 +65,12 @@ disp(fun2(10))
 // 101
 ```
 
-Try to modify the script to calculate expression:  y = x^2+10
+Try to modify the script to calculate expression:
 
-Functions could accept more than one argument:
+<img src="01.png" />
+
+
+Please remember that the functions could accept more than one argument:
 
 ```scilab
 
