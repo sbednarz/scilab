@@ -64,6 +64,19 @@ Here is an example of function for calculation of the formula:
 
 Create a new script in Scilab, copy and paste the code, and run the script:
 
+Approach 1 (all-in-one):
+
+```scilab
+function y = fun2 (x)
+	y = x^2 + 1
+endfunction
+
+disp(fun2(10))
+// 101
+```
+
+Approach 2 (step-by-step):
+
 ```scilab
 function y = fun2 (x)
 	a = 2       // a local variable as a parameter
