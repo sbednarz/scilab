@@ -117,22 +117,23 @@ In the following example, both x and y are two-elements vectors.
 ```scilab
 // vectors & matrices as functions arguments/results
 function y = fun3 (x)
-	a = x(1)
-	b = x(2)
-	y(1) = a+b
-	y(2) = a-b
+	a = x(1)      // the first element of x
+	b = x(2)      // the second element of x
+	y(1) = a+b    // calculate & put the result to the first elemenent of vector y
+	y(2) = a-b    // calculate & put the result to the second elemenent of vector y
 endfunction
 
 // creation of argument vector
 v = [10,2]
 
-// calculations
+// calculations (using function fun3)
 q = fun3(v)
 
-// q is a vector
+// q is a vector with the results: q(1)<=y(1) q(2)<=y(2)
 
 disp(q)
-
+// 12
+// 8
 
 disp(fun3(v))
 // 12
