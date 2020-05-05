@@ -140,6 +140,13 @@ disp(fun3(v))
 // 8
 ```
 
+#### Introduction: numerical solving system of nonlinear equations
+
+https://www.youtube.com/watch?v=jwQlY0BE0kg
+
+
+
+
 #### Exercise 1
 
 Create a new script. Define a funtion to calculate density of water at various temperature, rho=f(T):
