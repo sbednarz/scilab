@@ -10,10 +10,9 @@ Watch the video: https://www.youtube.com/watch?v=cUzBX7H2fi4
 
 Visit the page: https://www.wolframalpha.com/input/?i=x%5E2%3D16
 
-
-Plotting part 2
-
-https://www.youtube.com/watch?v=tNV5karekAI
+Try to plot a similar graph using Scilab.
+Load the script (script01.sce)[script01.sce], and try to understand line-by-line the script.
+Go to to consone, and type x <ENTER> or use the variable browser to inspect x content. What is role of "linspace" function? 
 
 
 Scilab user - defined functions
