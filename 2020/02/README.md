@@ -172,12 +172,22 @@ disp(x0)
 
 https://www.youtube.com/watch?v=jwQlY0BE0kg
 
-and worked examples:
+and worked examples (copy, paste to Scinotes & execute; play with guess values):
 
 https://github.com/sbednarz/scilab/tree/master/01#example-16-fsolve
 
 
+Note: in real calculations we have knowledge (we should have) about expected solutions. For example, as chemists, we know that temperature must be in a reange of c.a. 100K to, let say, 2000K (in most problems). It helps a lot to set initial guess value, and to evaluate correctness of calculations. 
 
+
+Compare Scilab code and Wolfram Alpha calculations:
+
+https://www.wolframalpha.com/input/?i=x%5E2%2By%3D16%2C+x%3D10-y+
+
+```scilab
+
+
+```
 
 #### Exercise 1
 
