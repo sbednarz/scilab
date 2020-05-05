@@ -18,6 +18,17 @@ Please remember that command `clf` clear plotting area, whereas `clear` clear sc
 
 #### Exercise 1. User-defined functions
 
+Study tutorials: 
+
+https://mars.uta.edu/mae3183/simulation/introscilab_baudin.pdf pages 38, 39, 42
+
+and the video:
+
+https://www.youtube.com/watch?v=ZEa2xOXwrJs
+
+
+Study the following examples
+
 ```scilab
 // fun1 => a function name
 // y => return value
@@ -80,4 +91,4 @@ disp(fun3(v))
 
 Scilab user - defined functions
 
-https://www.youtube.com/watch?v=ZEa2xOXwrJs
+
