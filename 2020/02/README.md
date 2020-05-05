@@ -126,19 +126,13 @@ endfunction
 // creation of argument vector
 v = [10,2]
 
-// calculations, approach 1
+// calculations
 q = fun3(v)
-
-// calculations, approach 2
-[q1, q2] = fun3(v)
-
 
 // q is a vector
 
-// q1 and q2 are scalars
-
 disp(q)
-disp(q1, q2)
+
 
 disp(fun3(v))
 // 12
