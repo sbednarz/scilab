@@ -146,7 +146,29 @@ Please browse the official documentation: https://help.scilab.org/docs/6.1.0/en_
 
 Navigate to https://www.wolframalpha.com/input/?i=x%5E2%3D16
 
-and next, study the video (one equation with one unknown):
+and next, study the following materials:
+
+```scilab
+// https://www.wolframalpha.com/input/?i=x%5E2%3D16
+
+// x^2=16
+// re-arrange the equation:
+// x^2-16=0
+// and put the left side to the function body
+
+function eq = problem(x)
+    eq = x^2 - 16
+endfunction
+
+// initial guess value
+guess = 100
+
+// main calculations
+x0 = fsolve(guess, problem)
+
+// results
+disp(x0)
+```
 
 https://www.youtube.com/watch?v=jwQlY0BE0kg
 
