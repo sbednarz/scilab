@@ -13,6 +13,69 @@ Visit the page: https://www.wolframalpha.com/input/?i=x%5E2%3D16
 Try to plot a similar graph using Scilab.
 Load the script [script01.sce](https://raw.githubusercontent.com/sbednarz/scilab/master/2020/02/script01.sce), and try to understand line-by-line the code.
 Go to the console, and type `x <ENTER>` or use the variable browser to inspect x content. What is role of "linspace" function? 
+Please remember that command `clf` clear plotting area, whereas `clear` clear scilab memory. Both functions usefull.
+
+
+#### Exercise 1. User-defined functions
+
+```scilab
+// fun1 => a function name
+// y => return value
+
+function y = fun1 (x)
+	y = x + 2
+endfunction
+
+
+// using of functions
+
+a = 10
+b = fun1(a)
+disp(b)
+
+disp(fun1(10))
+```
+
+```scilab
+function y = fun2 (x)
+	z = x**2
+	y = z + 1
+endfunction
+
+disp(fun2(10))
+// 101
+```
+
+```scilab
+
+// function of two arguments
+function z = calculate(x,y)
+	z = x+y
+endfunction
+
+disp(calculate(10,20))
+//30
+```
+
+
+```scilab
+// vectors & matrices as functions arguments/results
+function y = fun3 (x)
+	a = x(1)
+	b = x(2)
+	y(1) = a+b
+	y(2) = a-b
+endfunction
+
+v = [10,2]
+q = fun3(v)
+
+// q is a vector
+
+disp(fun3(v))
+// 12
+// 8
+```
 
 
 Scilab user - defined functions
