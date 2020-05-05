@@ -109,13 +109,10 @@ disp(calculate(10,20))
 //30
 ```
 
-#### Exercise 1
+##### Example 4
 
-Create a new script. Define a funtion to calculate density of water at various temperature, rho=f(T):
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4909168/ eq. 3.
-Plot water density for temperature range from 5 to 40oC.
-
-
+Vectors & matrices could be functions arguments/results.
+In the following example, both x and y are two-elements vectors.
 
 ```scilab
 // vectors & matrices as functions arguments/results
@@ -126,15 +123,36 @@ function y = fun3 (x)
 	y(2) = a-b
 endfunction
 
+// creation of argument vector
 v = [10,2]
+
+// calculations, approach 1
 q = fun3(v)
 
+// calculations, approach 2
+[q1, q2] = fun3(v)
+
+
 // q is a vector
+
+// q1 and q2 are scalars
+
+disp(q)
+disp(q1, q2)
 
 disp(fun3(v))
 // 12
 // 8
 ```
+
+#### Exercise 1
+
+Create a new script. Define a funtion to calculate density of water at various temperature, rho=f(T):
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4909168/ eq. 3.
+Plot water density for temperature range from 5 to 40oC.
+
+
+
 
 
 Scilab user - defined functions
