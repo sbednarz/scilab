@@ -12,13 +12,15 @@ Visit the page: https://www.wolframalpha.com/input/?i=x%5E2%3D16
 
 Try to plot a similar graph using Scilab.
 Load the script [script01.sce](https://raw.githubusercontent.com/sbednarz/scilab/master/2020/02/script01.sce), and try to understand line-by-line the code.
-Go to the console, and type `x <ENTER>` or use the variable browser to inspect x content. What is role of "linspace" function? 
-Please remember that command `clf` clear plotting area, whereas `clear` clear scilab memory. Both functions usefull.
+Go to the console, and type `x <ENTER>` or use the variable browser to inspect x content. What is role of "linspace" function? `help linspace` under the console could help.
+Please remember that command `clf` clear plotting area, whereas `clear` clear scilab memory. Both functions are usefull.
 
 
 #### Exercise 1. User-defined functions
 
-Study tutorials: 
+Study tutorials:
+
+https://www.scilab.org/sites/default/files/Scilab_beginners_0.pdf page 12, 13
 
 https://mars.uta.edu/mae3183/simulation/introscilab_baudin.pdf pages 38, 39, 42
 
