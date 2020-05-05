@@ -14,7 +14,7 @@ y=x^2
 plot(x,y,'r')
 
 
-// plot a point (marker) at x1,y,
+// plot a point (marker) at x1,y1
 // plot(x1, y1, 'o')
 plot(-4,16, 'ro')
 plot(4,16, 'ro')
