@@ -177,7 +177,7 @@ and worked examples (copy, paste to Scinotes & execute; play with guess values):
 https://github.com/sbednarz/scilab/tree/master/01#example-16-fsolve
 
 
-Note: in real calculations we have knowledge (we should have) about expected solutions. For example, as chemists, we know that temperature must be in a reange of c.a. 100K to, let say, 2000K (in most problems). It helps a lot to set initial guess value, and to evaluate correctness of calculations. 
+Note: in real calculations we have knowledge (we should have) about expected solutions. For example, as chemists, we know that temperature must be in a range from c.a. 100K to, let say, 2000K (in most problems). It helps a lot to set initial guess value, and to evaluate correctness of calculations. 
 
 
 Compare Scilab code and Wolfram Alpha calculations:
@@ -215,10 +215,27 @@ Create a new script. Define a funtion to calculate density of water at various t
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4909168/ eq. 3.
 Plot water density for temperature range from 5 to 40oC.
 
+#### Exercise 2
+
+Solve equation:
+
+<img src="03.png" />
+
+Report all solutions.
+
+#### Exercise 3
+
+Solve system of two equations:
+
+<img src="02.png" />
+
+Report all solutions.
 
 
+Please send back Scilab scripts with solutions.
 
 
-Scilab user - defined functions
+#### Summary
 
+User defined functions, `fsolve` function
 
