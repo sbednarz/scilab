@@ -142,7 +142,17 @@ disp(fun3(v))
 
 #### Introduction: numerical solving system of nonlinear equations
 
+Please browse the official documentation: https://help.scilab.org/docs/6.1.0/en_US/fsolve.html
+
+Navigate to https://www.wolframalpha.com/input/?i=x%5E2%3D16
+
+and next, study the video (one equation with one unknown):
+
 https://www.youtube.com/watch?v=jwQlY0BE0kg
+
+and worked examples:
+
+https://github.com/sbednarz/scilab/tree/master/01#example-16-fsolve
 
 
 
