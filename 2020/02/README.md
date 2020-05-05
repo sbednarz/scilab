@@ -209,6 +209,8 @@ solution = fsolve(guess, problem)
 disp(solution)
 ```
 
+Please send back Scilab scripts (Exercise 1, 2 and 3) with solutions.
+
 #### Exercise 1
 
 Create a new script. Define a funtion to calculate density of water at various temperature, rho=f(T):
@@ -232,7 +234,7 @@ Solve system of two equations:
 Report all solutions.
 
 
-Please send back Scilab scripts with solutions.
+
 
 
 #### Summary
