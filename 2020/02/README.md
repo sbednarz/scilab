@@ -30,6 +30,7 @@ and the video:
 
 https://www.youtube.com/watch?v=ZEa2xOXwrJs
 
+##### Example 1
 
 Create a new script in Scilab/Scinotes, copy and paste the code, and run the script:
 
@@ -54,6 +55,9 @@ disp(fun1(10))
 Follow the code line-by-line, and try to understand. 
 Play with the code to see what happened.
 
+
+##### Example 2
+
 Here is an example of function for calculation of the formula:
 
 <img src="00.png" />
@@ -74,6 +78,8 @@ Try to modify the script to calculate expression:
 
 <img src="01.png" />
 
+
+##### Example 3
 
 Please remember that the functions could accept more than one argument:
 
