@@ -22,6 +22,8 @@ Study tutorials:
 
 https://www.scilab.org/sites/default/files/Scilab_beginners_0.pdf page 12, 13
 
+https://x-engineer.org/graduate-engineering/programming-languages/scilab/how-to-define-a-custom-function-in-scilab/ - the general description
+
 https://mars.uta.edu/mae3183/simulation/introscilab_baudin.pdf pages 38, 39, 42
 
 and the video:
