@@ -16,7 +16,7 @@ Go to the console, and type `x <ENTER>` or use the variable browser to inspect x
 Please remember that command `clf` clear plotting area, whereas `clear` clear scilab memory. Both functions are usefull.
 
 
-#### Exercise 1. User-defined functions
+#### Introduction: User-defined functions
 
 Study tutorials:
 
@@ -93,6 +93,10 @@ endfunction
 disp(calculate(10,20))
 //30
 ```
+
+#### Exercise 1
+
+Create a new script. Define a funtion for calculation of:
 
 
 
