@@ -6,4 +6,4 @@
 
 [Class 02](02/README.md)  4 May - 10 May
 
-[Class 03](02/README.md)  11 May - 17 May
+[Class 03](03/README.md)  11 May - 17 May
