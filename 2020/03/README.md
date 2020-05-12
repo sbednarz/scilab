@@ -44,5 +44,5 @@ Please develop and send back the Scilab script (.sce) calculating the problem as
 
 <img src="ex1.svg" />
 
-
 ### Exercise 2
+test
