@@ -52,6 +52,6 @@ Let’s consider two distillation columns:
 
 <img src="ex2.png"/>
 
-Calculate the flow rates and compositions of the distillate and bottom streams.
+Calculate the flow rates and compositions of the distillate and bottom streams. Hint: do materials balances for column 1 and column 2 separately.
 
 Please develop and send back the Scilab script (.sce) calculating the problem as your answer.
