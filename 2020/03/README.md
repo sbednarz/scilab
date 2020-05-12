@@ -40,7 +40,7 @@ https://youtu.be/DsZ4p_mHSPg?t=441 Verify your results: https://youtu.be/DsZ4p_m
 
 A feed rate of 100 mol/h of an equimolar mixture of ethanol (E), propanol (P), and butanol (B) is separated in a distillation column. The distillate contains 0.66 mol ethanol and no butanol, and the bottom stream is free of ethanol. Calculate the flow rates and compositions of the distillate and bottom streams.
 
-Please develop and send back the Scilab script (.sce) calculating the problem as your answer.
+Please develop and send back the Scilab script (as a seperted sce file or paste into your answer sheet) calculating the problem as your answer.
 
 <img src="ex1.png"/>
 
@@ -54,4 +54,4 @@ Let’s consider two distillation columns:
 
 Calculate the flow rates and compositions of the distillate and bottom streams. Hint: do materials balances for column 1 and column 2 separately.
 
-Please develop and send back the Scilab script (.sce) calculating the problem as your answer.
+Please develop and send back the Scilab script (as a seperted sce file or paste into your answer sheet) calculating the problem as your answer.
