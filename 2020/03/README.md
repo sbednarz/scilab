@@ -46,4 +46,11 @@ Please develop and send back the Scilab script (.sce) calculating the problem as
 
 ### Exercise 2
 
-test
+https://www.youtube.com/watch?v=JfD5iyoKD8w
+
+Let’s consider two distillation columns:
+
+<img src="ex2.png" width="500"/>
+
+Calculate the flow rates and compositions of the distillate and bottom streams.
+
