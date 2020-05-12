@@ -5,6 +5,16 @@
 
 #### Introduction
 
+Please remind yourself the definition of mass and mole fraction:
+
+https://en.wikipedia.org/wiki/Mass_fraction_(chemistry)
+
+https://en.wikipedia.org/wiki/Mole_fraction
+
+This relations are very useful in construction of mass balances.
+
+Watch the materials:
+
 https://www.youtube.com/watch?v=10qbOTikL1k
 
 https://www.youtube.com/watch?v=UGVEtzgR0lw
