@@ -42,7 +42,7 @@ A feed rate of 100 mol/h of an equimolar mixture of ethanol (E), propanol (P), a
 
 Please develop and send back the Scilab script (.sce) calculating the problem as your answer.
 
-<img src="ex1.png" width="500"/>
+<img src="ex1.png" width="50%"/>
 
 ### Exercise 2
 
@@ -50,7 +50,7 @@ https://www.youtube.com/watch?v=JfD5iyoKD8w
 
 Let’s consider two distillation columns:
 
-<img src="ex2.png" width="500"/>
+<img src="ex2.png" width="50%"/>
 
 Calculate the flow rates and compositions of the distillate and bottom streams.
 
