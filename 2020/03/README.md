@@ -5,3 +5,13 @@
 https://www.youtube.com/watch?v=10qbOTikL1k
 
 https://www.youtube.com/watch?v=UGVEtzgR0lw
+
+
+Exercise 
+
+Watch the video tutorial:
+
+https://www.youtube.com/watch?v=DsZ4p_mHSPg
+
+Please write equation system in Scilab and solve it numerically 
+Compare your sesults with  ...
