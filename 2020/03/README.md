@@ -2,4 +2,6 @@
 
 ## Class 03 - Mass balance under steady-state conditions, 11 May - 17 May
 
+https://www.youtube.com/watch?v=10qbOTikL1k
+
 https://www.youtube.com/watch?v=UGVEtzgR0lw
