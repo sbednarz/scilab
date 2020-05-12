@@ -42,7 +42,8 @@ A feed rate of 100 mol/h of an equimolar mixture of ethanol (E), propanol (P), a
 
 Please develop and send back the Scilab script (.sce) calculating the problem as your answer.
 
-<img src="ex1.svg" />
+![scheme](ex1.svg "")
+
 
 ### Exercise 2
 
