@@ -3,7 +3,7 @@
 ## Class 03 - Mass balance under steady-state conditions, 11 May - 17 May
 
 
-#### Introduction
+### Introduction
 
 Please remind yourself the definition of mass and mole fraction:
 
@@ -36,11 +36,13 @@ Watch the video material: https://www.youtube.com/watch?v=DsZ4p_mHSPg try to sol
 https://youtu.be/DsZ4p_mHSPg?t=441 Verify your results: https://youtu.be/DsZ4p_mHSPg?t=527
 
 
-
-Exercise 1
+### Exercise 1
 
 A feed rate of 100 mol/h of an equimolar mixture of ethanol (E), propanol (P), and butanol (B) is separated in a distillation column. The distillate contains 0.66 mol ethanol and no butanol, and the bottom stream is free of ethanol. Calculate the flow rates and compositions of the distillate and bottom streams.
 
 Send the Scilab script (.sce) calculating the problem as your answer.
 
 <img src="ex1.svg" />
+
+
+### Exercise 2
