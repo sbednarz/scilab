@@ -13,7 +13,7 @@ https://en.wikipedia.org/wiki/Mole_fraction
 
 These relations are very useful in construction of mass balances.
 
-Watch the materials:
+Study the materials:
 
 https://www.youtube.com/watch?v=10qbOTikL1k
 
