@@ -21,7 +21,7 @@ https://people.utm.my/hasrinah/files/2015/04/06-SKKK1113-201415_2-CHAP-4.4-4.6.p
 
 ### Exercise 1
 
-A) Mixture of 220 kmol/h of ethane and 500 kmol/h of chlorine is reacted in a rector. 
+A) Mixture of 220 kmol/h of ethane and 500 kmol/h of chlorine is reacted in a rector: 
 
 C<sub>2</sub>H<sub>6</sub> + Cl<sub>2</sub> &#8594; C<sub>2</sub>H<sub>2</sub>Cl + HCl
 
