@@ -7,3 +7,15 @@
 [Class 02](02/README.md) Scilab basics part 2, 4 May - 10 May
 
 [Class 03](03/README.md) Mass balance under steady-state conditions, 11 May - 17 May
+
+[Class 04](04/README.md) Mass balance under steady-state conditions, 11 May - 17 May
+
+[Class 05] Mass balance under steady-state conditions, part 2, 18 May - 24 May
+
+[Class 06] Chemical Equilibrium, 25 May - 31 May
+
+[Class 07] Chemical Kinetics, 1 Jun - 7 May
+
+[Class 07] Ideal Reactors, 8 May - 14 May
+
+[Class 08] Ideal Reactors, part 2, 15 May - 21 May
