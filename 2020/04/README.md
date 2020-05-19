@@ -40,7 +40,7 @@ Consider a continuous steady-state process of polymerization with recycle of an 
 
 Monomer  &#8594; Polymer
 
-Conversion 𝛼 of the monomer into the polymer in the reactor (R) is 30% per pass. Unreacted monomer is seperated and mixed (M) with a fresh monomer stream F<sub>M</sub>. Calculate flow of the recycled
+Conversion 𝛼 of the monomer into the polymer in the reactor (R) is 30% per pass. Unreacted monomer is seperated and mixed (in the mixer, M) with a fresh monomer stream F<sub>M</sub>. Calculate flow of the recycled
 stream assuming ideal separation of the polymer in the separator (S).
 
 <img align="center" src="ex2.png"/>
