@@ -8,11 +8,11 @@
 
 [Class 03](03/README.md) Mass balance under steady-state conditions, part 1, 11 May - 17 May
 
-[Class 04] Mass balance under steady-state conditions, part 2, 18 May - 24 May
+[Class 04] Mass balance with chemical reaction, 18 May - 24 May
 
-[Class 05] Chemical Equilibrium, 25 May - 31 May
+[Class 05] Chemical equilibrium, 25 May - 31 May
 
-[Class 06] Chemical Kinetics, 1 Jun - 7 May
+[Class 06] Chemical kinetics, 1 Jun - 7 May
 
 [Class 07] Mass balance under non-steady-state conditions, 8 May - 14 May
 
