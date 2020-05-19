@@ -31,3 +31,5 @@ C<sub>2</sub>H<sub>4</sub>Cl<sub>2</sub> + Cl<sub>2</sub> &#8594; C<sub>2</sub>H
 
 
 The exit stream contains 50 kmol/h monochloroethane, 50 kmol/h dichloroethane, 100 kmol/h trichloroethane, as well as unknown amounts of hydrogen chloride, ethane and chlorine. Solve the problem using the atomic species balance approach.
+
+B) Assuming that the reactor is fed by 400 kmol/h of ethane and 200 kmol/h of chlorine, and extent of the first, second and third reactions is 100, 50, 20, respectively, calculate the exit stream composition (note: building and solving of a equations system is not necessary). 
