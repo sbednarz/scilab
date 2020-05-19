@@ -36,12 +36,12 @@ B) Assuming that the reactor is fed by 400 kmol/h of ethane and 200 kmol/h of ch
 
 ### Exercise 2
 
-Consider a continuous steady-state process of polymerization with recycle of an unreacted monomer (scheme):
+Consider a continuous steady-state process of polymerization with recycle of an unreacted monomer:
 
 Monomer  &#8594; Polymer
 
 Conversion 𝛼 of the monomer into the polymer in the reactor (R) is 30% per pass. Unreacted monomer is seperated and mixed (M) with a fresh monomer stream F<sub>M</sub>. Calculate flow of the recycled
 stream assuming ideal separation of the polymer in the separator (S).
 
-<img src="ex2.png"/>
+<img align="center" src="ex2.png"/>
 
