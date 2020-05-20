@@ -12,8 +12,8 @@
 
 [Class 05] Chemical equilibrium, 25 May - 31 May
 
-[Class 06] Chemical kinetics, 1 Jun - 7 May
+[Class 06] Chemical kinetics, 1 Jun - 7 Jun
 
-[Class 07] Mass balance under non-steady-state conditions, 8 May - 14 May
+[Class 07] Mass balance under non-steady-state conditions, 8 Jun - 14 Jun
 
-[Class 08] Ideal Reactors, part 2, 15 May - 21 May
+[Class 08] Ideal Reactors, part 2, 15 Jun - 21 Jun
