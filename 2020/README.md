@@ -10,7 +10,7 @@
 
 [Class 04](04/README.md) Mass balance with chemical reaction, 18 May - 24 May
 
-[Class 05] Chemical equilibrium, 25 May - 31 May
+[Class 05](05/README.md) Chemical equilibrium, 25 May - 31 May
 
 [Class 06] Chemical kinetics, 1 Jun - 7 Jun
 
