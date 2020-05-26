@@ -1,6 +1,6 @@
 ### Computer Modelling in Chemical Technology, 2020 Edition
 
-## Class 05 - Mass balance with chemical reaction, 18 May - 24 May
+## Class 05 - Chemical equilibrium, 25 May - 31 May
 
 
 ### Introduction
@@ -32,11 +32,11 @@ b) Ky = 0.1, feed composition: 1 mol of propane and 1 mol of N2 (inert)
 
 A liquid mixture of methanol (M) and ethanol (E) is esterified by acetic acid (A). The system is reaching equilibrium and contains unreacted alcohols and the acid, as well as methyl acetate (MA), ethyl acetate (EA) and water (W):
 
-1) M + A <=> MA + W, K1
+1) M + A <=> MA + W, K<sub>1</sub>
 
-2) E + A <=> EA + W, K2
+2) E + A <=> EA + W, K<sub>2</sub>
 
-Develop a model of the process knowing that K1=15 and K2 = 10. What are the extents of reactions at equilibrium? What is the concentration of the reactants under equilibria? Please consider the following feed compositions:
+Develop a model of the process knowing that K<sub>1</sub>=15 and K<sub>2</sub> = 10. What are the extents of reactions at equilibrium? What is the concentration of the reactants under equilibria? Please consider the following feed compositions:
 
 a) [M]<sub>0</sub>=3 [E]<sub>0</sub>=3 [A]<sub>0</sub>=6 mol/L
 
