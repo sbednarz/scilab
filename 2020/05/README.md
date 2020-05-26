@@ -5,6 +5,30 @@
 
 ### Introduction
 
+Please study the book:
+
+https://sites.tufts.edu/andrewrosen/files/2012/06/P-Chem-Review-Packet1.pdf pages 30-33 
+
+and just browse the following material:
+
+https://www.masterjeeclasses.com/wp-content/uploads/2018/12/5.CHEMICAL-EQUILIBRIUM-THEORY.pdf
+
+You could also watch some lectures:
+
+https://www.youtube.com/watch?v=lGiZmCPJm2o
+
+https://www.youtube.com/watch?v=NBst2ansVTE
+
+https://www.youtube.com/watch?v=QsiGDZd1RF8
+
+https://www.youtube.com/watch?v=c2Mxld-8wDY
+
+https://www.youtube.com/watch?v=QkgDHssj-3w
+
+and, finally, please remember about Scilab worked-examples here:
+
+https://github.com/sbednarz/scilab/blob/master/03/README.md
+
 
 ### Exercise 1
 
