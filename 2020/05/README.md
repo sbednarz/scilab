@@ -11,7 +11,8 @@
 Let’s consider a simple equilibrium isomerization reaction in a liquid phase:
 
 A <=> B
-<sub>0</sub>
+
+
 Calculate the concentration of  the reactants under equilibrium knowing that initially [A]<sub>0</sub> = 0.5mol/L and K = 25.
 
 ### Exercise 2
