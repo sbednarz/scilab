@@ -50,8 +50,8 @@ Notes: Try running calculations for both positive and negative guess values. Due
 
 ### Grades:
 
-Ex. 1 => 3.0
+Exercise 1 => 3.0
 
-Ex. 1 and 2 => 4.0
+Exercises 1 and 2 => 4.0
 
-Ex. 1, 2 and 3 => 5.0 
+Exercises 1, 2 and 3 => 5.0 
