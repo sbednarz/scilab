@@ -19,10 +19,10 @@ Calculate the concentration of  the reactants under equilibrium knowing that ini
 
 Propylene can be produced from the dehydrogenation of propane over a catalyst:
 
-CH3CH3CH3 <=> CH3CH=CH2 + H2
+CH<sub>3</sub>CH<sub>2</sub>CH<sub>3</sub> <=> CH<sub>3</sub>CH=CH<sub>2</sub> + H<sub>2</sub>
 
 The process is carried out at 600oC, 1bar and reaches equilibrium.
-What is the extent of reaction at equilibrium? What is equilibrium composition (yi) of the reaction mixture? What is the fraction of propane converted to propylene?
+What is the extent of reaction at equilibrium? What is equilibrium composition (mole fraction y<sub>i</sub>) of the reaction mixture? What is the fraction of propane converted to propylene?
 
 a) Ky = 0.1, feed composition: 1 mol of propane
 
