@@ -16,4 +16,4 @@
 
 [Class 07] Mass balance under non-steady-state conditions, 8 Jun - 14 Jun
 
-[Class 08] Ideal Reactors, part 2, 15 Jun - 21 Jun
+[Class 08] Ideal Reactors, 15 Jun - 21 Jun
