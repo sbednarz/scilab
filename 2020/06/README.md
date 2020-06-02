@@ -15,15 +15,16 @@
 
 ### Exercise 1
 
-Suppose an elementary reaction A => B, plot concentration of A and B versus reaction time ranged from 0 to 200s if k=2.5e-2 1/s and initial concentrations A<sub>0</sub> = 0.5 mol/L and B<sub>0</sub> = 0.1 mol/L. Please '''use ode function.
+Suppose an elementary reaction A => B, plot concentration of A and B versus reaction time ranged from 0 to 200s if k=2.5e-2 1/s and initial concentrations A<sub>0</sub> = 0.5 mol/L and B<sub>0</sub> = 0.1 mol/L. Please `use` ode function.
 
 ### Exercise 2
 
-Suppose an equilibrium process A => B k<sub>1</sub>, B => A k<sub>2</sub>. Plot concentration of A and B versus reaction time ranged from 0 to 200s if k<sub>1</sub>=k<sub>2</sub>=2.5e-2 1/s and initial concentrations A<sub>0</sub> = 0.5 mol/L and B<sub>0</sub> = 0 mol/L. What is approx. time needed to reach the equilibria by the system (look at the plot)?
+Suppose an equilibrium process A => B k<sub>1</sub>, B => A k<sub>2</sub>. Plot concentration of A and B versus reaction time ranged from 0 to 200s if k<sub>1</sub>=k<sub>2</sub>=2.5e-2 1/s and initial concentrations A<sub>0</sub> = 0.5 mol/L and B<sub>0</sub> = 0 mol/L. What is approx. time needed to reach the equilibria by the system (look at the plot)?  Please `use` ode function.
 
 ### Exercise 3
 
-Let's consider an equilibrium process 2A=>B k<sub>1</sub>, B=>A k<sub>2</sub>. Plot concentration of A and B versus reaction time ranged from 0 to 10000s  if k<sub>1</sub> = 1e-3 1/s k<sub>2</sub> = 1e-4 1/s and initial concentrations A<sub>0</sub> = 0 mol/L and B<sub>0</sub> = 0.6 mol/L. What is initial rate of the process (t=0s)? What is the final rate (t=10000s)?
+Let's consider an equilibrium process 2A=>B k<sub>1</sub>, B=>A k<sub>2</sub>. Plot concentration of A and B versus reaction time ranged from 0 to 10000s  if k<sub>1</sub> = 1e-3 1/s k<sub>2</sub> = 1e-4 1/s and initial concentrations A<sub>0</sub> = 0 mol/L and B<sub>0</sub> = 0.6 mol/L. What is initial rate of the process (t=0s)? What is the final rate (t=10000s)?  Please `use` ode function.
+
 
 #### Grades:
 
