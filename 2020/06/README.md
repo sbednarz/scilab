@@ -9,7 +9,7 @@
 
 [ODE - chemical kinetics](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Book%3A_Mathematical_Methods_in_Chemistry_(Levitus)/04%3A_First_Order_Ordinary_Differential_Equations/4.03%3A_Chemical_Kinetics)
 
-[Quick Scilab tutorial](chemical_kinetics_ode_scilab.pdf)
+[Quick Scilab tutorial to `ode` function](chemical_kinetics_ode_scilab.pdf)
 
 [Worked examples in Scilab](https://github.com/sbednarz/scilab/tree/master/04)
 
