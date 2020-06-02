@@ -9,11 +9,13 @@
 
 [ODE - chemical kinetics](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Book%3A_Mathematical_Methods_in_Chemistry_(Levitus)/04%3A_First_Order_Ordinary_Differential_Equations/4.03%3A_Chemical_Kinetics)
 
+[Quick Scilab tutorial](chemical_kinetics_ode_scilab.pdf)
+
 [Worked examples in Scilab](https://github.com/sbednarz/scilab/tree/master/04)
 
 ### Exercise 1
 
-Suppose an elementary reaction A => B, plot concentration of A and B versus reaction time ranged from 0 to 200s if k=2.5e-2 1/s and initial concentrations A<sub>0</sub> = 0.5 mol/L and B<sub>0</sub> = 0.1 mol/L.
+Suppose an elementary reaction A => B, plot concentration of A and B versus reaction time ranged from 0 to 200s if k=2.5e-2 1/s and initial concentrations A<sub>0</sub> = 0.5 mol/L and B<sub>0</sub> = 0.1 mol/L. Please '''use ode function.
 
 ### Exercise 2
 
