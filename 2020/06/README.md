@@ -13,7 +13,7 @@ Suppose an elementary reaction A => B, plot concentration of A and B versus reac
 
 ### Exercise 2
 
-Suppose an equilibrium process A => B k<sub>1</sub>, B => A k<sub>2</sub>. Plot concentration of A and B versus reaction time ranged from 0 to 200s if k<sub>1</sub>=k<sub>2</sub>=2.5e-2 1/s and initial concentrations Ak<sub>0</sub> = 0.5 mol/L and Bk<sub>0</sub> = 0 mol/L. What is approx. time needed to reach the equilibria by the system (look at the plot)?
+Suppose an equilibrium process A => B k<sub>1</sub>, B => A k<sub>2</sub>. Plot concentration of A and B versus reaction time ranged from 0 to 200s if k<sub>1</sub>=k<sub>2</sub>=2.5e-2 1/s and initial concentrations A<sub>0</sub> = 0.5 mol/L and B<sub>0</sub> = 0 mol/L. What is approx. time needed to reach the equilibria by the system (look at the plot)?
 
 ### Exercise 3
 
