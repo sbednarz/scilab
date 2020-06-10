@@ -114,7 +114,10 @@ V=y(1,:)   // first row
 
 //now we could calculate molar concentration of the salt
 
-c = n0 ./ V // note "./" means element-by-element division, normal operator "/" does not work in this case (V is a vector)
+// note "./" means element-by-element division, 
+// normal operator "/" does not work in this case, because V is a vector
+
+c = n0 ./ V 
 
 subplot(211)
 plot(t, V, '-b')
