@@ -12,7 +12,7 @@ Class03 - accumulation was equal to 0, there was no reaction, so we used the equ
 
 0 = in - out
 
-Class06 - accumulation was not equal to 0, there was reaction(s), but the system was closed (in, out = 0), so we used the equation in a form: 
+Class06 - there was reaction(s) and accumulation was not equal to 0, but the system was closed (in, out = 0), so we used the equation in a form: 
 
 accumulation = ± reaction 
 
