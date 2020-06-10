@@ -26,7 +26,7 @@ accumulation = in - out
 
 A tank is filled at a flow rate of Fin = 10 L/min. Volumetric flow rate from the tank is Fout = 1 L/min. Plot
 volume of a liquid in the tank versus time from 0 to 60 min assuming that densities (rho) of inlet and outlet flows
-are the same and initially the tank is empty.
+are the same (and do not depend on the process time) and initially the tank is empty.
 
 Solution
 
@@ -38,7 +38,7 @@ Thus for our system we have:
 
 dm/dt = d(rhoV)/dt = rhoFin - rhoFout
 
-Because the density is constant:
+Because the density is constant (rho(t)=const):
 
 dV/dt = Fin - Fout [1]
 
