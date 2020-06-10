@@ -79,3 +79,10 @@ legend(['V'])
 xlabel('Time, min')
 ylabel('Volume,L')
 ```
+
+
+
+
+
+### Exercise 1
+Modify script from Exmaple 1. Consider a case when the tank contains initially 400 L of a liquid, and Fin = 1 L/min and Fout = 10 L/min.
