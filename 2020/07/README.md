@@ -36,7 +36,7 @@ accumulation = in - out
 
 Thus for our system we have:
 
-dm/dt = d(rho*V)/dt = rho*Fin - rho*Fout
+dm/dt = d(rhoV)/dt = rhoFin - rhoFout
 
 Because the density is constant:
 
