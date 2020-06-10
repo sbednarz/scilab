@@ -82,14 +82,14 @@ ylabel('Volume,L')
 
 #### Example 2
 
-A tank containing initially 10 mol of a salt is filled by a solvent at a flow rate of Fin = 10 L/min. Plot volume of the solvent and molar concentration of the salt in the tank versus time from 0 to 60 min assuming that density of the solvent and the solution and are the same (and do not depend on the process time) and initially the tank contains 1L of the solvent.
+A tank containing initially 10 mol of a salt is filled by a solvent at a flow rate of Fin = 10 L/min. Plot volume of the solvent and molar concentration of the salt in the tank versus time from 0 to 5 min assuming that density of the solvent and the solution and are the same (and do not depend on the process time) and initially the tank contains 1L of the solvent.
 
 <img align="center" src="img02.png"/>
 
 ```scilab
 function dy = model(t, y)
 	V = y(1)
-    dVdt = Fin
+	dVdt = Fin
 	dy=[dVdt]
 endfunction
 
@@ -128,6 +128,8 @@ legend(['c'])
 xlabel('Time, min')
 ylabel('c, mol/L')
 ```
+The solution:
+
 <img align="center" src="img03.png"/>
 
 ### Exercise 1
