@@ -28,6 +28,8 @@ A tank is filled at a flow rate of Fin = 10 L/min. Volumetric flow rate from the
 volume of a liquid in the tank versus time from 0 to 60 min assuming that densities (rho) of inlet and outlet flows
 are the same (and do not depend on the process time) and initially the tank is empty.
 
+<img align="center" src="img01.png"/>
+
 Solution
 
 The following equation is a mass balance that can be applied to any system without chemical reaction:
