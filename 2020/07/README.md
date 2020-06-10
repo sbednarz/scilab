@@ -140,6 +140,8 @@ Modify script from Examaple 1. Consider a case when the tank contains initially 
 
 ### Exercise 2
 
+An evaporator is initially filled by 100 L of a solution of substance A at a concentration of 1 mol/L. Assuming
+a solvent evaporation rate of 50 L/h plot volume of the solution and molar concentration of A versus evaporation time from 0 to 1 h. Hint: what is number of moles of A during the process?
 
 ### Exercise 3
 
