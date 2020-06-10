@@ -18,4 +18,6 @@ accumulation = ± reaction
 
 (note: accumulation means e.g. rate of production of a reaction product P, dP/dt).
 
-This module focuses on mass balance under non-steady-state conditions without reaction, i.e. accumulation, in, out ≠ 0
+This module focuses on mass balance under non-steady-state conditions without reaction, i.e. accumulation, in, out ≠ 0:
+
+accumulation = in - out
