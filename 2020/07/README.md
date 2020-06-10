@@ -84,7 +84,51 @@ ylabel('Volume,L')
 
 A tank containing initially 10 mol of a salt is filled by a solvent at a flow rate of Fin = 10 L/min. Plot volume of the solvent and molar concentration of the salt in the tank versus time from 0 to 60 min assuming that density of the solvent and the solution and are the same (and do not depend on the process time) and initially the tank contains 1L of the solvent.
 
+<img align="center" src="img02.png"/>
 
+```scilab
+function dy = model(t, y)
+	V = y(1)
+    dVdt = Fin
+	dy=[dVdt]
+endfunction
+
+// initial conditions
+V0 = 1 //L - initial volume of the solvent in the tank
+y0 = [V0]
+t0 = 0
+
+//other process parameters
+Fin=10 //L/min
+n0=10 //mol of the salt (n0 does not depend on the time)
+
+
+t = linspace(0,5) // time span in minutes
+
+y = ode(y0, t0, t, model) // numerical integration of ODE
+
+//results post-processing
+
+//V(t)
+V=y(1,:)   // first row
+
+//now we could calculate molar concentration of the salt
+
+c = n0 ./ V // note "./" means element-by-element division, normal operator "/" does not work in this case (V is a vector)
+
+subplot(211)
+plot(t, V, '-b')
+legend(['V'])
+xlabel('Time, min')
+ylabel('Volume, L')
+
+subplot(212)
+plot(t, c, '-r')
+legend(['c'])
+xlabel('Time, min')
+ylabel('c, mol/L')
+```
+<img align="center" src="img03.png"/>
 
 ### Exercise 1
 Modify script from Examaple 1. Consider a case when the tank contains initially 400 L of a liquid, and Fin = 1 L/min and Fout = 10 L/min for t from 0 to 60 min. Loot at the plot, at what time the calculation loses physical sense?
