@@ -140,7 +140,9 @@ Modify script from Examaple 1. Consider a case when the tank contains initially 
 
 ### Exercise 2
 
-<img align="center" src="img04.png"/>
+A system of connected taks is filling by a liquid. Plot volume of the liquid in each tank for time from 0 to 1 h, knowing that initially each tank contains 5 L of the liquid and F1 = 10 L/h F2 = 5 L/h and F3 = 4 L/h.
+
+<img align="center" src="img05.png"/>
 
 
 ### Exercise 3
