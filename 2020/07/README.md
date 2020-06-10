@@ -136,7 +136,7 @@ The solution:
 <img align="center" src="img03.png"/>
 
 ### Exercise 1
-Modify script from Examaple 1. Consider a case when the tank contains initially 400 L of a liquid, and Fin = 1 L/min and Fout = 10 L/min for t from 0 to 60 min. Look at the plot - at what time the calculation loses physical sense?
+Modify script from Examaple 1. Consider a case when the tank contains initially 400 L of a liquid, and Fin = 1 L/min and Fout = 10 L/min for t from 0 to 60 min. Look at the plot - at what time the calculations lose physical sense?
 
 ### Exercise 2
 
