@@ -4,7 +4,7 @@
 
 #### Introduction
 
-We have already learnt about different the use cases of well-known material balace equation: 
+We have already learnt about different use cases of well-known material balace equation: 
 
 accumulation = in - out ± reaction.
 
