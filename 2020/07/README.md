@@ -85,4 +85,11 @@ ylabel('Volume,L')
 
 
 ### Exercise 1
-Modify script from Exmaple 1. Consider a case when the tank contains initially 400 L of a liquid, and Fin = 1 L/min and Fout = 10 L/min.
+Modify script from Examaple 1. Consider a case when the tank contains initially 400 L of a liquid, and Fin = 1 L/min and Fout = 10 L/min.
+
+### Exercise 2
+
+
+### Exercise 3
+
+
