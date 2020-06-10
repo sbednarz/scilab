@@ -150,3 +150,10 @@ A system of connected taks is filling by a liquid. Plot volume of the liquid in 
 An evaporator is initially filled by 100 L of a solution of substance A at a concentration of 1 mol/L. Assuming
 a solvent evaporation rate of 50 L/h plot volume of the solution and molar concentration of A versus evaporation time from 0 to 1 h. Hint: what is number of moles of A during the process?
 
+#### Grades:
+
+Ex. 1 => 3.0
+
+Ex. 1 and 2 => 4.0
+
+Ex. 1, 2 and 3 => 5.0 
