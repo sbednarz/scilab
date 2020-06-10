@@ -14,6 +14,6 @@
 
 [Class 06](06/README.md) Chemical kinetics, 1 Jun - 7 Jun
 
-[Class 07] Mass balance under non-steady-state conditions, 8 Jun - 14 Jun
+[Class 07](07/README.md) Mass balance under non-steady-state conditions, 8 Jun - 14 Jun
 
 [Class 08] Closing of the course, 15 Jun - 21 Jun
