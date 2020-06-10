@@ -24,27 +24,39 @@ accumulation = in - out
 
 #### Example 1
 
+A tank is filled at a flow rate of Fin = 10 L/min. Volumetric flow rate from the tank is Fout = 1 L/min. Plot
+volume of a liquid in the tank versus time from 0 to 60 min assuming that densities of inlet and outlet flows
+are the same and initially the tank is empty.
+
 ```scilab
+
+
 function dy = model(t, y)
 	V = y(1)
-    dVdt = 0.01 // 0.1 L/h - filling rate
+    dVdt = Fin - Fout
 	dy=[dVdt]
 endfunction
 
 // initial conditions
-V0 = 10 //L
-A0 = 2 // mol
+V0 = 0 //L - empty tank
 y0 = [V0]
 t0 = 0
 
-t = linspace(0,600)       // time in hours
-y = ode(y0, t0, t, model)
+//other process parameters
+Fin=10 //L/min
+Fout=1 //L/min
+
+t = linspace(0,60) // time span in minutes
+
+y = ode(y0, t0, t, model) // numerical integration of ODE
+
+//results post-processing
 
 //V(t)
 V=y(1,:)   // first row
 
 plot(t, V, '-r')
 legend(['V'])
-xlabel('Time, h')
+xlabel('Time, min')
 ylabel('Volume,L')
 ```
