@@ -50,7 +50,7 @@ solve the ordinary differential equation [1] with the initial conditions ğ‘‰(ğ
 
 function dy = model(t, y)
 	V = y(1)
-    dVdt = Fin - Fout
+	dVdt = Fin - Fout
 	dy=[dVdt]
 endfunction
 
