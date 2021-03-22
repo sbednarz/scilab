@@ -1,5 +1,5 @@
 ---
-### Computer Modelling in Chemical Technology, 2020 Edition
+### Computer Modelling in Chemical Technology, 2021 Edition
 ---
 
 [Class 01](01/README.md) Scilab basics part 1
