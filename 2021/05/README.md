@@ -1,6 +1,6 @@
-### Computer Modelling in Chemical Technology, 2020 Edition
+### Computer Modelling in Chemical Technology, 2021 Edition
 
-## Class 05 - Chemical equilibrium, 25 May - 31 May
+## Class 05 - Chemical equilibrium
 
 
 ### Introduction

@@ -1,6 +1,6 @@
-### Computer Modelling in Chemical Technology, 2020 Edition
+### Computer Modelling in Chemical Technology, 2021 Edition
 
-## Mass balance under non-steady-state conditions, 8 Jun - 14 Jun
+## Mass balance under non-steady-state conditions
 
 #### Introduction
 

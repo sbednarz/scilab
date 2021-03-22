@@ -1,6 +1,6 @@
-### Computer Modelling in Chemical Technology, 2020 Edition
+### Computer Modelling in Chemical Technology, 2021 Edition
 
-## Chemical kinetics, 1 Jun - 7 Jun
+## Chemical kinetics
 
 
 ### Introduction

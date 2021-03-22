@@ -1,6 +1,6 @@
-### Computer Modelling in Chemical Technology, 2020 Edition
+### Computer Modelling in Chemical Technology, 2021 Edition
 
-## Class 04 - Mass balance with chemical reaction, 18 May - 24 May
+## Class 04 - Mass balance with chemical reaction
 
 
 ### Introduction

@@ -1,9 +1,7 @@
-### Computer Modelling in Chemical Technology, 2020 Edition
+### Computer Modelling in Chemical Technology, 2021 Edition
 
-## Class 01 - Scilab basics, 28 Apr - 3 May
+## Class 01 - Scilab basics
 
-
-Please fill the [answer sheet](https://github.com/sbednarz/scilab/raw/master/2020/01/class01_firstname_surname.odt). For making screenshots of selected Scilab area please use e.g. [Lightshot app](https://app.prntscr.com/en/index.html).
 
 #### Exercise 1. Arithmetic expressions
 
