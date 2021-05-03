@@ -41,19 +41,6 @@ Calculate the concentration of  the reactants under equilibrium knowing that ini
 
 ### Exercise 2
 
-Propylene can be produced from the dehydrogenation of propane over a catalyst:
-
-CH<sub>3</sub>CH<sub>2</sub>CH<sub>3</sub> <=> CH<sub>3</sub>CH=CH<sub>2</sub> + H<sub>2</sub>
-
-The process is carried out at 600oC, 1bar and reaches equilibrium.
-What is the extent of reaction at equilibrium? What is equilibrium composition (mole fraction y<sub>i</sub>) of the reaction mixture? What is the fraction of propane converted to propylene?
-
-a) Ky = 0.1, feed composition: 1 mol of propane
-
-b) Ky = 0.1, feed composition: 1 mol of propane and 1 mol of N2 (inert)
-
-### Exercise 3
-
 A liquid mixture of methanol (M) and ethanol (E) is esterified by acetic acid (A). The system is reaching equilibrium and contains unreacted alcohols and the acid, as well as methyl acetate (MA), ethyl acetate (EA) and water (W):
 
 1) M + A <=> MA + W, K<sub>1</sub>
@@ -74,8 +61,6 @@ Notes: Try running calculations for both positive and negative guess values. Due
 
 ### Grades:
 
-Exercise 1 => 3.0
+Exercise 1 => 4.0
 
-Exercises 1 and 2 => 4.0
-
-Exercises 1, 2 and 3 => 5.0 
+Exercises 1 and 2 => 5.0
