@@ -27,7 +27,7 @@ https://www.youtube.com/watch?v=QkgDHssj-3w
 
 and, finally, please remember about Scilab worked-examples here:
 
-https://github.com/sbednarz/scilab/blob/master/03/README.md
+https://github.com/sbednarz/scilab/blob/master/archive/03/README.md
 
 
 ### Exercise 1
