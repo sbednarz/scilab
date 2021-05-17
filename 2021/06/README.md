@@ -11,7 +11,7 @@
 
 [Quick Scilab tutorial to `ode` function](chemical_kinetics_ode_scilab.pdf)
 
-[Worked examples in Scilab](https://github.com/sbednarz/scilab/tree/master/04)
+[Worked examples in Scilab](https://github.com/sbednarz/scilab/tree/master/archive/04)
 
 ### Exercise 1
 
